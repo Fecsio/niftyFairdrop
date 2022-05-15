@@ -1,0 +1,2736 @@
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   43996 
+
+[homo, etero] edges after:       tensor([35595,  8401], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.0758s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6648
+Parity: 0.0064102564102563875 | Equality: 0.0
+F1-score: 0.8254716981132075
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   43996 
+
+[homo, etero] edges after:       tensor([35595,  8401], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.4365s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6801
+Parity: 0.017184942716857554 | Equality: 0.015756302521008347
+F1-score: 0.815347721822542
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   43996 
+
+[homo, etero] edges after:       tensor([35595,  8401], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 19.9341s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6715
+Parity: 0.019367157665030055 | Equality: 0.006302521008403339
+F1-score: 0.8115942028985507
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   43996 
+
+[homo, etero] edges after:       tensor([35595,  8401], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.8914s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6687
+Parity: 0.02359519912711394 | Equality: 0.015756302521008347
+F1-score: 0.8173076923076923
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   43996 
+
+[homo, etero] edges after:       tensor([35595,  8401], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.3640s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6859
+Parity: 0.025777414075286442 | Equality: 0.015756302521008347
+F1-score: 0.8232445520581114
+CounterFactual Fairness: 0.01200000000000001
+Robustness Score: 0.016000000000000014
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   43996 
+
+[homo, etero] edges after:       tensor([35595,  8401], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.7845s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6767
+Parity: 0.02359519912711394 | Equality: 0.015756302521008347
+F1-score: 0.8173076923076923
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.01200000000000001
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   43996 
+
+[homo, etero] edges after:       tensor([35595,  8401], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 19.1957s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6812
+Parity: 0.017184942716857554 | Equality: 0.015756302521008347
+F1-score: 0.815347721822542
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   43996 
+
+[homo, etero] edges after:       tensor([35595,  8401], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.7222s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6776
+Parity: 0.004364429896344779 | Equality: 0.007352941176470562
+F1-score: 0.8162291169451074
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   43996 
+
+[homo, etero] edges after:       tensor([35561,  8435], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.6950s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6864
+Parity: 0.012956901254773556 | Equality: 0.015756302521008347
+F1-score: 0.8192771084337349
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   43996 
+
+[homo, etero] edges after:       tensor([35561,  8435], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.6042s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6766
+Parity: 0.017184942716857554 | Equality: 0.015756302521008347
+F1-score: 0.815347721822542
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   43996 
+
+[homo, etero] edges after:       tensor([35561,  8435], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.9441s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6854
+Parity: 0.023049645390070927 | Equality: 0.030462184873949583
+F1-score: 0.8109452736318408
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.020000000000000018
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   43996 
+
+[homo, etero] edges after:       tensor([35561,  8435], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.7625s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6801
+Parity: 0.02359519912711394 | Equality: 0.015756302521008347
+F1-score: 0.8173076923076923
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   43996 
+
+[homo, etero] edges after:       tensor([35521,  8475], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.2029s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6811
+Parity: 0.00872885979268967 | Equality: 0.006302521008403339
+F1-score: 0.8135593220338982
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   43996 
+
+[homo, etero] edges after:       tensor([35521,  8475], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 25.1037s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6922
+Parity: 0.0002727768685215626 | Equality: 0.011554621848739566
+F1-score: 0.8166259168704156
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   43996 
+
+[homo, etero] edges after:       tensor([35521,  8475], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.1192s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6612
+Parity: 0.0001363884342607813 | Equality: 0.010504201680672232
+F1-score: 0.815347721822542
+CounterFactual Fairness: 0.0
+Robustness Score: 0.01200000000000001
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   43996 
+
+[homo, etero] edges after:       tensor([35521,  8475], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.1591s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6843
+Parity: 0.012956901254773556 | Equality: 0.015756302521008347
+F1-score: 0.8192771084337349
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39933 
+
+[homo, etero] edges after:       tensor([32330,  7603], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.0783s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5973
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39933 
+
+[homo, etero] edges after:       tensor([32330,  7603], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 21.0066s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5978
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39933 
+
+[homo, etero] edges after:       tensor([32330,  7603], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 21.1804s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5358
+Parity: 0.021412984178941663 | Equality: 0.007352941176470562
+F1-score: 0.8162291169451074
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39933 
+
+[homo, etero] edges after:       tensor([32330,  7603], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.0097s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6020
+Parity: 0.015002727768685276 | Equality: 0.007352941176470562
+F1-score: 0.8142857142857143
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.01200000000000001
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39933 
+
+[homo, etero] edges after:       tensor([32330,  7603], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 21.2232s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6098
+Parity: 0.010774686306601167 | Equality: 0.007352941176470562
+F1-score: 0.8181818181818181
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39933 
+
+[homo, etero] edges after:       tensor([32330,  7603], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 21.1434s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6176
+Parity: 0.015002727768685276 | Equality: 0.007352941176470562
+F1-score: 0.8142857142857143
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39933 
+
+[homo, etero] edges after:       tensor([32330,  7603], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 19.6379s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5904
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39933 
+
+[homo, etero] edges after:       tensor([32330,  7603], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 21.2483s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5679
+Parity: 0.0064102564102563875 | Equality: 0.0
+F1-score: 0.8254716981132075
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39933 
+
+[homo, etero] edges after:       tensor([31910,  8023], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.4906s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6071
+Parity: 0.02359519912711394 | Equality: 0.024159663865546133
+F1-score: 0.8125
+CounterFactual Fairness: 0.01200000000000001
+Robustness Score: 0.020000000000000018
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39933 
+
+[homo, etero] edges after:       tensor([31910,  8023], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.6311s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5481
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39933 
+
+[homo, etero] edges after:       tensor([31910,  8023], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.3206s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6078
+Parity: 0.0021822149481723896 | Equality: 0.00945378151260512
+F1-score: 0.8199052132701421
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39933 
+
+[homo, etero] edges after:       tensor([31910,  8023], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.0678s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6092
+Parity: 0.02359519912711394 | Equality: 0.024159663865546133
+F1-score: 0.8125
+CounterFactual Fairness: 0.016000000000000014
+Robustness Score: 0.028000000000000025
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39933 
+
+[homo, etero] edges after:       tensor([31510,  8423], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.6127s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6265
+Parity: 0.008592471358428888 | Equality: 0.0010504201680672232
+F1-score: 0.817102137767221
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39933 
+
+[homo, etero] edges after:       tensor([31510,  8423], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.6459s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5349
+Parity: 0.015002727768685276 | Equality: 0.0010504201680672232
+F1-score: 0.819047619047619
+CounterFactual Fairness: 0.0
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39933 
+
+[homo, etero] edges after:       tensor([31510,  8423], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.1436s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6190
+Parity: 0.008592471358428888 | Equality: 0.0010504201680672232
+F1-score: 0.817102137767221
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39933 
+
+[homo, etero] edges after:       tensor([31510,  8423], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 22.8188s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6113
+Parity: 0.010774686306601167 | Equality: 0.007352941176470562
+F1-score: 0.8181818181818181
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35460 
+
+[homo, etero] edges after:       tensor([28704,  6756], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.0308s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.4743
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35460 
+
+[homo, etero] edges after:       tensor([28704,  6756], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.6387s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5287
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35460 
+
+[homo, etero] edges after:       tensor([28704,  6756], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 19.5824s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.4379
+Parity: 0.0064102564102563875 | Equality: 0.0
+F1-score: 0.8254716981132075
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35460 
+
+[homo, etero] edges after:       tensor([28704,  6756], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 21.9333s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5762
+Parity: 0.05810147299509005 | Equality: 0.03676470588235292
+F1-score: 0.7908163265306123
+CounterFactual Fairness: 0.02400000000000002
+Robustness Score: 0.03600000000000003
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35460 
+
+[homo, etero] edges after:       tensor([28704,  6756], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.7535s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5221
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35460 
+
+[homo, etero] edges after:       tensor([28704,  6756], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 21.1299s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5156
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35460 
+
+[homo, etero] edges after:       tensor([28704,  6756], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.3120s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5191
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35460 
+
+[homo, etero] edges after:       tensor([28704,  6756], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.9756s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5093
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35460 
+
+[homo, etero] edges after:       tensor([27887,  7573], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.1332s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5525
+Parity: 0.0064102564102563875 | Equality: 0.008403361344537785
+F1-score: 0.820754716981132
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35460 
+
+[homo, etero] edges after:       tensor([27887,  7573], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.1300s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5067
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35460 
+
+[homo, etero] edges after:       tensor([27887,  7573], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.1966s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.4665
+Parity: 0.03423349699945444 | Equality: 0.015756302521008347
+F1-score: 0.815347721822542
+CounterFactual Fairness: 0.01200000000000001
+Robustness Score: 0.020000000000000018
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35460 
+
+[homo, etero] edges after:       tensor([27887,  7573], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.6322s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5515
+Parity: 0.025777414075286442 | Equality: 0.014705882352941235
+F1-score: 0.8087167070217917
+CounterFactual Fairness: 0.016000000000000014
+Robustness Score: 0.028000000000000025
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35460 
+
+[homo, etero] edges after:       tensor([27086,  8374], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.0673s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5268
+Parity: 0.042825968357883215 | Equality: 0.02310924369747902
+F1-score: 0.8038740920096852
+CounterFactual Fairness: 0.02400000000000002
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35460 
+
+[homo, etero] edges after:       tensor([27086,  8374], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.2168s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.4522
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35460 
+
+[homo, etero] edges after:       tensor([27086,  8374], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.4948s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5822
+Parity: 0.008592471358428888 | Equality: 0.0010504201680672232
+F1-score: 0.817102137767221
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35460 
+
+[homo, etero] edges after:       tensor([27086,  8374], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.9886s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5739
+Parity: 0.021412984178941663 | Equality: 0.007352941176470562
+F1-score: 0.8162291169451074
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44038 
+
+[homo, etero] edges after:       tensor([35628,  8410], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.5551s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7232
+Parity: 0.010365521003818934 | Equality: 0.01995798319327735
+F1-score: 0.823529411764706
+CounterFactual Fairness: 0.0
+Robustness Score: 0.016000000000000014
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44038 
+
+[homo, etero] edges after:       tensor([35628,  8410], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.0038s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7260
+Parity: 0.03150572831423892 | Equality: 0.048319327731092376
+F1-score: 0.814070351758794
+CounterFactual Fairness: 0.016000000000000014
+Robustness Score: 0.016000000000000014
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44038 
+
+[homo, etero] edges after:       tensor([35628,  8410], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.3877s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7157
+Parity: 0.04214402618657942 | Equality: 0.06617647058823528
+F1-score: 0.8110831234256928
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.020000000000000018
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44038 
+
+[homo, etero] edges after:       tensor([35628,  8410], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 21.0352s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7280
+Parity: 0.05905619203491541 | Equality: 0.0756302521008404
+F1-score: 0.8174807197943444
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.016000000000000014
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44038 
+
+[homo, etero] edges after:       tensor([35628,  8410], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.0996s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7160
+Parity: 0.01663938897981454 | Equality: 0.021008403361344463
+F1-score: 0.8229426433915212
+CounterFactual Fairness: 0.016000000000000014
+Robustness Score: 0.01200000000000001
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44038 
+
+[homo, etero] edges after:       tensor([35628,  8410], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 21.0625s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7243
+Parity: 0.025231860338243317 | Equality: 0.02941176470588236
+F1-score: 0.8197530864197531
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.028000000000000025
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44038 
+
+[homo, etero] edges after:       tensor([35628,  8410], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 19.5225s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7219
+Parity: 0.008183306055646544 | Equality: 0.021008403361344463
+F1-score: 0.8148148148148148
+CounterFactual Fairness: 0.01200000000000001
+Robustness Score: 0.020000000000000018
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44038 
+
+[homo, etero] edges after:       tensor([35628,  8410], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.7819s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7229
+Parity: 0.014593562465902932 | Equality: 0.02941176470588236
+F1-score: 0.8177339901477831
+CounterFactual Fairness: 0.01200000000000001
+Robustness Score: 0.02400000000000002
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44038 
+
+[homo, etero] edges after:       tensor([35595,  8443], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.7890s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7175
+Parity: 0.0002727768685215626 | Equality: 0.0021008403361344463
+F1-score: 0.8264058679706601
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.01200000000000001
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44038 
+
+[homo, etero] edges after:       tensor([35595,  8443], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.9812s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7234
+Parity: 0.01882160392798693 | Equality: 0.03886554621848737
+F1-score: 0.8118811881188119
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.016000000000000014
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44038 
+
+[homo, etero] edges after:       tensor([35595,  8443], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.0495s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7275
+Parity: 0.06983087834151658 | Equality: 0.06617647058823528
+F1-score: 0.8131313131313131
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.01200000000000001
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44038 
+
+[homo, etero] edges after:       tensor([35595,  8443], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.7359s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7236
+Parity: 0.025231860338243317 | Equality: 0.02941176470588236
+F1-score: 0.8197530864197531
+CounterFactual Fairness: 0.01200000000000001
+Robustness Score: 0.01200000000000001
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44038 
+
+[homo, etero] edges after:       tensor([35555,  8483], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 25.5209s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7284
+Parity: 0.0676486633933443 | Equality: 0.08403361344537819
+F1-score: 0.8142493638676845
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.01200000000000001
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44038 
+
+[homo, etero] edges after:       tensor([35555,  8483], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 25.2336s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7269
+Parity: 0.03368794326241131 | Equality: 0.03886554621848737
+F1-score: 0.8179551122194515
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.02400000000000002
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44038 
+
+[homo, etero] edges after:       tensor([35555,  8483], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.4506s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7215
+Parity: 0.014593562465902932 | Equality: 0.02941176470588236
+F1-score: 0.8177339901477831
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.02400000000000002
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44038 
+
+[homo, etero] edges after:       tensor([35555,  8483], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 25.4184s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7229
+Parity: 0.014593562465902932 | Equality: 0.02941176470588236
+F1-score: 0.8177339901477831
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.020000000000000018
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39997 
+
+[homo, etero] edges after:       tensor([32328,  7669], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.6843s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7198
+Parity: 0.008319694489907326 | Equality: 0.0021008403361344463
+F1-score: 0.8184019370460048
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39997 
+
+[homo, etero] edges after:       tensor([32328,  7669], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 21.4976s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7287
+Parity: 0.06342062193126019 | Equality: 0.06617647058823528
+F1-score: 0.8151898734177214
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.028000000000000025
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39997 
+
+[homo, etero] edges after:       tensor([32328,  7669], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 19.6516s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7238
+Parity: 0.012547735951991212 | Equality: 0.0021008403361344463
+F1-score: 0.8223844282238442
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.01200000000000001
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39997 
+
+[homo, etero] edges after:       tensor([32328,  7669], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.8185s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7136
+Parity: 0.033960720130932875 | Equality: 0.027310924369747913
+F1-score: 0.8249400479616306
+CounterFactual Fairness: 0.0
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39997 
+
+[homo, etero] edges after:       tensor([32328,  7669], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.4896s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7310
+Parity: 0.0676486633933443 | Equality: 0.057773109243697496
+F1-score: 0.8142493638676845
+CounterFactual Fairness: 0.0
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39997 
+
+[homo, etero] edges after:       tensor([32328,  7669], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.3310s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7243
+Parity: 0.008183306055646544 | Equality: 0.02941176470588236
+F1-score: 0.8197530864197531
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.028000000000000025
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39997 
+
+[homo, etero] edges after:       tensor([32328,  7669], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.5965s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7296
+Parity: 0.06137479541734869 | Equality: 0.03886554621848737
+F1-score: 0.8200000000000001
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.016000000000000014
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39997 
+
+[homo, etero] edges after:       tensor([32328,  7669], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 21.0806s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7281
+Parity: 0.03805237315875609 | Equality: 0.037815126050420145
+F1-score: 0.8206388206388205
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.01200000000000001
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39997 
+
+[homo, etero] edges after:       tensor([31961,  8036], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.2142s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7259
+Parity: 0.02100381887615932 | Equality: 0.011554621848739566
+F1-score: 0.8206388206388205
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.016000000000000014
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39997 
+
+[homo, etero] edges after:       tensor([31961,  8036], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.7745s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7204
+Parity: 0.001909438079650827 | Equality: 0.0021008403361344463
+F1-score: 0.8203883495145631
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39997 
+
+[homo, etero] edges after:       tensor([31961,  8036], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.7249s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7129
+Parity: 0.010911074740861948 | Equality: 0.0021008403361344463
+F1-score: 0.8243902439024391
+CounterFactual Fairness: 0.016000000000000014
+Robustness Score: 0.020000000000000018
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39997 
+
+[homo, etero] edges after:       tensor([31961,  8036], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.2777s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7083
+Parity: 0.001909438079650827 | Equality: 0.0021008403361344463
+F1-score: 0.8203883495145631
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39997 
+
+[homo, etero] edges after:       tensor([31561,  8436], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.7591s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7208
+Parity: 0.0002727768685215626 | Equality: 0.0021008403361344463
+F1-score: 0.8264058679706601
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.016000000000000014
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39997 
+
+[homo, etero] edges after:       tensor([31561,  8436], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.6332s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7234
+Parity: 0.006137479541734825 | Equality: 0.0021008403361344463
+F1-score: 0.8243902439024391
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.016000000000000014
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39997 
+
+[homo, etero] edges after:       tensor([31561,  8436], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.0100s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7192
+Parity: 0.012547735951991212 | Equality: 0.0021008403361344463
+F1-score: 0.8223844282238442
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.01200000000000001
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39997 
+
+[homo, etero] edges after:       tensor([31561,  8436], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.8970s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7223
+Parity: 0.006137479541734825 | Equality: 0.0021008403361344463
+F1-score: 0.8243902439024391
+CounterFactual Fairness: 0.0
+Robustness Score: 0.01200000000000001
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35510 
+
+[homo, etero] edges after:       tensor([28689,  6821], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.8148s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7076
+Parity: 0.008592471358428888 | Equality: 0.00945378151260512
+F1-score: 0.8218527315914489
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.01200000000000001
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35510 
+
+[homo, etero] edges after:       tensor([28689,  6821], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 21.2402s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6700
+Parity: 0.0064102564102563875 | Equality: 0.0
+F1-score: 0.8254716981132075
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35510 
+
+[homo, etero] edges after:       tensor([28689,  6821], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 19.3202s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6715
+Parity: 0.0064102564102563875 | Equality: 0.0
+F1-score: 0.8254716981132075
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35510 
+
+[homo, etero] edges after:       tensor([28689,  6821], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 21.4367s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7063
+Parity: 0.015002727768685276 | Equality: 0.0010504201680672232
+F1-score: 0.819047619047619
+CounterFactual Fairness: 0.01200000000000001
+Robustness Score: 0.016000000000000014
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35510 
+
+[homo, etero] edges after:       tensor([28689,  6821], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 19.4683s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7137
+Parity: 0.012956901254773556 | Equality: 0.015756302521008347
+F1-score: 0.8192771084337349
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.01200000000000001
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35510 
+
+[homo, etero] edges after:       tensor([28689,  6821], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.2850s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6917
+Parity: 0.012820512820512775 | Equality: 0.008403361344537785
+F1-score: 0.822695035460993
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35510 
+
+[homo, etero] edges after:       tensor([28689,  6821], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 21.1202s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7080
+Parity: 0.008592471358428888 | Equality: 0.00945378151260512
+F1-score: 0.8218527315914489
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.016000000000000014
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35510 
+
+[homo, etero] edges after:       tensor([28689,  6821], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.2940s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7175
+Parity: 0.012956901254773556 | Equality: 0.015756302521008347
+F1-score: 0.8192771084337349
+CounterFactual Fairness: 0.008000000000000007
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35510 
+
+[homo, etero] edges after:       tensor([27927,  7583], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.5548s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6920
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35510 
+
+[homo, etero] edges after:       tensor([27927,  7583], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.7591s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7010
+Parity: 0.02359519912711394 | Equality: 0.015756302521008347
+F1-score: 0.8173076923076923
+CounterFactual Fairness: 0.016000000000000014
+Robustness Score: 0.01200000000000001
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35510 
+
+[homo, etero] edges after:       tensor([27927,  7583], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.1920s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6808
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35510 
+
+[homo, etero] edges after:       tensor([27927,  7583], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.7713s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6944
+Parity: 0.010774686306601167 | Equality: 0.007352941176470562
+F1-score: 0.8181818181818181
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.01200000000000001
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35510 
+
+[homo, etero] edges after:       tensor([27126,  8384], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.6848s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7004
+Parity: 0.019230769230769273 | Equality: 0.008403361344537785
+F1-score: 0.8246445497630331
+CounterFactual Fairness: 0.0
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35510 
+
+[homo, etero] edges after:       tensor([27126,  8384], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.4604s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7017
+Parity: 0.019230769230769273 | Equality: 0.008403361344537785
+F1-score: 0.8246445497630331
+CounterFactual Fairness: 0.0
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35510 
+
+[homo, etero] edges after:       tensor([27126,  8384], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.4825s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7101
+Parity: 0.012956901254773556 | Equality: 0.015756302521008347
+F1-score: 0.8192771084337349
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35510 
+
+[homo, etero] edges after:       tensor([27126,  8384], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.8623s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6919
+Parity: 0.019230769230769273 | Equality: 0.008403361344537785
+F1-score: 0.8246445497630331
+CounterFactual Fairness: 0.0
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44006 
+
+[homo, etero] edges after:       tensor([35612,  8394], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.1023s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6920
+Parity: 0.004364429896344779 | Equality: 0.007352941176470562
+F1-score: 0.8162291169451074
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44006 
+
+[homo, etero] edges after:       tensor([35612,  8394], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.7652s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6839
+Parity: 0.008456082924168107 | Equality: 0.00945378151260512
+F1-score: 0.8218527315914489
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44006 
+
+[homo, etero] edges after:       tensor([35612,  8394], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 19.2887s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6920
+Parity: 0.0020458265139116083 | Equality: 0.0010504201680672232
+F1-score: 0.819047619047619
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44006 
+
+[homo, etero] edges after:       tensor([35612,  8394], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.5143s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6868
+Parity: 0.0020458265139116083 | Equality: 0.0010504201680672232
+F1-score: 0.819047619047619
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44006 
+
+[homo, etero] edges after:       tensor([35612,  8394], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.7652s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6798
+Parity: 0.0021822149481723896 | Equality: 0.00945378151260512
+F1-score: 0.8199052132701421
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44006 
+
+[homo, etero] edges after:       tensor([35612,  8394], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 21.2441s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6930
+Parity: 0.010774686306601167 | Equality: 0.007352941176470562
+F1-score: 0.8181818181818181
+CounterFactual Fairness: 0.0
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44006 
+
+[homo, etero] edges after:       tensor([35612,  8394], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.1083s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6893
+Parity: 0.0020458265139116083 | Equality: 0.0010504201680672232
+F1-score: 0.819047619047619
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44006 
+
+[homo, etero] edges after:       tensor([35612,  8394], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.2072s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6922
+Parity: 0.004364429896344779 | Equality: 0.007352941176470562
+F1-score: 0.8162291169451074
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44006 
+
+[homo, etero] edges after:       tensor([35570,  8436], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.0946s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6675
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44006 
+
+[homo, etero] edges after:       tensor([35570,  8436], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.7629s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6723
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44006 
+
+[homo, etero] edges after:       tensor([35570,  8436], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 25.4692s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6859
+Parity: 0.008592471358428888 | Equality: 0.0010504201680672232
+F1-score: 0.817102137767221
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44006 
+
+[homo, etero] edges after:       tensor([35570,  8436], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 25.4166s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6677
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44006 
+
+[homo, etero] edges after:       tensor([35529,  8477], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.5115s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6834
+Parity: 0.0021822149481723896 | Equality: 0.00945378151260512
+F1-score: 0.8199052132701421
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44006 
+
+[homo, etero] edges after:       tensor([35529,  8477], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.2305s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6858
+Parity: 0.008592471358428888 | Equality: 0.0010504201680672232
+F1-score: 0.817102137767221
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44006 
+
+[homo, etero] edges after:       tensor([35529,  8477], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.7427s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6710
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   44006 
+
+[homo, etero] edges after:       tensor([35529,  8477], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.8505s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6677
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39967 
+
+[homo, etero] edges after:       tensor([32337,  7630], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.7548s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6303
+Parity: 0.0020458265139116083 | Equality: 0.0010504201680672232
+F1-score: 0.819047619047619
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39967 
+
+[homo, etero] edges after:       tensor([32337,  7630], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.6833s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6376
+Parity: 0.0021822149481723896 | Equality: 0.00945378151260512
+F1-score: 0.8199052132701421
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39967 
+
+[homo, etero] edges after:       tensor([32337,  7630], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 21.1039s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6328
+Parity: 0.014729950900163713 | Equality: 0.010504201680672232
+F1-score: 0.821256038647343
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.016000000000000014
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39967 
+
+[homo, etero] edges after:       tensor([32337,  7630], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.9553s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6305
+Parity: 0.010638297872340385 | Equality: 0.017857142857142905
+F1-score: 0.820754716981132
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39967 
+
+[homo, etero] edges after:       tensor([32337,  7630], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 19.4451s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6270
+Parity: 0.004228041462083998 | Equality: 0.00945378151260512
+F1-score: 0.8179669030732861
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39967 
+
+[homo, etero] edges after:       tensor([32337,  7630], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 21.4386s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6005
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39967 
+
+[homo, etero] edges after:       tensor([32337,  7630], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 19.7688s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6171
+Parity: 0.0001363884342607813 | Equality: 0.010504201680672232
+F1-score: 0.815347721822542
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.01200000000000001
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39967 
+
+[homo, etero] edges after:       tensor([32337,  7630], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.5365s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6236
+Parity: 0.004364429896344779 | Equality: 0.0010504201680672232
+F1-score: 0.8210023866348449
+CounterFactual Fairness: 0.0
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39967 
+
+[homo, etero] edges after:       tensor([31937,  8030], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.6038s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6134
+Parity: 0.006273867975995606 | Equality: 0.018907563025210017
+F1-score: 0.8181818181818181
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39967 
+
+[homo, etero] edges after:       tensor([31937,  8030], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 22.9770s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6098
+Parity: 0.004364429896344779 | Equality: 0.0010504201680672232
+F1-score: 0.8210023866348449
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39967 
+
+[homo, etero] edges after:       tensor([31937,  8030], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.0201s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5890
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39967 
+
+[homo, etero] edges after:       tensor([31937,  8030], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.5097s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6057
+Parity: 0.006273867975995606 | Equality: 0.018907563025210017
+F1-score: 0.8181818181818181
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39967 
+
+[homo, etero] edges after:       tensor([31537,  8430], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.3609s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6430
+Parity: 0.010638297872340385 | Equality: 0.017857142857142905
+F1-score: 0.820754716981132
+CounterFactual Fairness: 0.0
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39967 
+
+[homo, etero] edges after:       tensor([31537,  8430], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.5947s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5932
+Parity: 0.010638297872340385 | Equality: 0.017857142857142905
+F1-score: 0.820754716981132
+CounterFactual Fairness: 0.0
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39967 
+
+[homo, etero] edges after:       tensor([31537,  8430], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.0676s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6557
+Parity: 0.006273867975995606 | Equality: 0.018907563025210017
+F1-score: 0.8181818181818181
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39967 
+
+[homo, etero] edges after:       tensor([31537,  8430], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.5516s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6087
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35441 
+
+[homo, etero] edges after:       tensor([28676,  6765], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.5871s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5928
+Parity: 0.0064102564102563875 | Equality: 0.008403361344537785
+F1-score: 0.820754716981132
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35441 
+
+[homo, etero] edges after:       tensor([28676,  6765], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.8968s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5881
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35441 
+
+[homo, etero] edges after:       tensor([28676,  6765], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.8122s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6054
+Parity: 0.012684124386251994 | Equality: 0.018907563025210017
+F1-score: 0.8162291169451074
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35441 
+
+[homo, etero] edges after:       tensor([28676,  6765], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.7839s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5822
+Parity: 0.006273867975995606 | Equality: 0.018907563025210017
+F1-score: 0.8181818181818181
+CounterFactual Fairness: 0.0
+Robustness Score: 0.01200000000000001
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35441 
+
+[homo, etero] edges after:       tensor([28676,  6765], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.9699s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5989
+Parity: 0.019094380796508492 | Equality: 0.027310924369747913
+F1-score: 0.819047619047619
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35441 
+
+[homo, etero] edges after:       tensor([28676,  6765], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.2395s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5877
+Parity: 0.006273867975995606 | Equality: 0.018907563025210017
+F1-score: 0.8181818181818181
+CounterFactual Fairness: 0.0
+Robustness Score: 0.01200000000000001
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35441 
+
+[homo, etero] edges after:       tensor([28676,  6765], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 21.0559s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5522
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35441 
+
+[homo, etero] edges after:       tensor([28676,  6765], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 20.8482s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5867
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35441 
+
+[homo, etero] edges after:       tensor([27871,  7570], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.5752s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5665
+Parity: 0.008592471358428888 | Equality: 0.0010504201680672232
+F1-score: 0.817102137767221
+CounterFactual Fairness: 0.0
+Robustness Score: 0.01200000000000001
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35441 
+
+[homo, etero] edges after:       tensor([27871,  7570], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 22.9833s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6091
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.008000000000000007
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35441 
+
+[homo, etero] edges after:       tensor([27871,  7570], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 24.3217s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6024
+Parity: 0.0021822149481723896 | Equality: 0.00945378151260512
+F1-score: 0.8199052132701421
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.0040000000000000036
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35441 
+
+[homo, etero] edges after:       tensor([27871,  7570], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.7780s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5698
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35441 
+
+[homo, etero] edges after:       tensor([27070,  8371], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.9403s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6104
+Parity: 0.0021822149481723896 | Equality: 0.00945378151260512
+F1-score: 0.8199052132701421
+CounterFactual Fairness: 0.0040000000000000036
+Robustness Score: 0.01200000000000001
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35441 
+
+[homo, etero] edges after:       tensor([27070,  8371], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 22.7761s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6070
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.016000000000000014
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35441 
+
+[homo, etero] edges after:       tensor([27070,  8371], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.1496s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5563
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.0
+Using backend: pytorch
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   35441 
+
+[homo, etero] edges after:       tensor([27070,  8371], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 23.2446s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.5806
+Parity: 0.0 | Equality: 0.0
+F1-score: 0.8235294117647058
+CounterFactual Fairness: 0.0
+Robustness Score: 0.008000000000000007

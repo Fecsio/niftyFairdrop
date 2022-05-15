@@ -1,0 +1,1872 @@
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.7757s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6741
+Parity: 0.030127218973504233 | Equality: 0.008648989898989934
+F1-score: 0.18619756427604872
+CounterFactual Fairness: 0.006849726611788731
+Robustness Score: 0.08207654869915282
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.2793s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6740
+Parity: 0.029645889973166334 | Equality: 0.008648989898989934
+F1-score: 0.1869565217391304
+CounterFactual Fairness: 0.006849726611788731
+Robustness Score: 0.08219671934146489
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.4103s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6739
+Parity: 0.02856069496803343 | Equality: 0.005808080808080818
+F1-score: 0.1880482456140351
+CounterFactual Fairness: 0.007450579823349179
+Robustness Score: 0.08153578080874846
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.6115s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6735
+Parity: 0.028803139051254645 | Equality: 0.016982323232323238
+F1-score: 0.18668876001104667
+CounterFactual Fairness: 0.0063690440425404615
+Robustness Score: 0.08105509823950008
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.5053s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6736
+Parity: 0.027364411901627028 | Equality: 0.015593434343434354
+F1-score: 0.1863661352391424
+CounterFactual Fairness: 0.0072102385387250445
+Robustness Score: 0.08087484227603192
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 192.7465s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6743
+Parity: 0.032531234049500674 | Equality: 0.010164141414141403
+F1-score: 0.18668093073014175
+CounterFactual Fairness: 0.006248873400228283
+Robustness Score: 0.08207654869915282
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.4001s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6740
+Parity: 0.030605918048149106 | Equality: 0.00726010101010105
+F1-score: 0.18755096493612397
+CounterFactual Fairness: 0.006489214684852529
+Robustness Score: 0.08159586612990444
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.4277s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6740
+Parity: 0.027609485910541298 | Equality: 0.010037878787878818
+F1-score: 0.1883580450302032
+CounterFactual Fairness: 0.007270323859881023
+Robustness Score: 0.08123535420296824
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.5647s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6737
+Parity: 0.029436092034214573 | Equality: 0.012815656565656586
+F1-score: 0.1869517543859649
+CounterFactual Fairness: 0.006549300006008507
+Robustness Score: 0.08147569548759237
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.4212s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6735
+Parity: 0.028023821937058796 | Equality: 0.012815656565656586
+F1-score: 0.18715697036223933
+CounterFactual Fairness: 0.006729555969476664
+Robustness Score: 0.08147569548759237
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.3495s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6737
+Parity: 0.029048213060168915 | Equality: 0.014141414141414121
+F1-score: 0.18593103448275863
+CounterFactual Fairness: 0.006729555969476664
+Robustness Score: 0.08111518356065617
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 192.3313s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6736
+Parity: 0.0288903999857493 | Equality: 0.012815656565656586
+F1-score: 0.18679813749657628
+CounterFactual Fairness: 0.007090067896412866
+Robustness Score: 0.08063450099140779
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 229.1851s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6800
+Parity: 0.04756413477057719 | Equality: 0.033522727272727315
+F1-score: 0.19139966273187184
+CounterFactual Fairness: 0.00642912936369644
+Robustness Score: 0.10040257165174549
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 227.9056s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6808
+Parity: 0.04704752970027684 | Equality: 0.040593434343434376
+F1-score: 0.19129703594702543
+CounterFactual Fairness: 0.006789641290632753
+Robustness Score: 0.10448837349035633
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 228.6475s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6805
+Parity: 0.04912183975855741 | Equality: 0.03648989898989896
+F1-score: 0.19216340141725718
+CounterFactual Fairness: 0.005648020188667946
+Robustness Score: 0.10022231568827733
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 230.1268s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6792
+Parity: 0.045638818769225625 | Equality: 0.037563131313131326
+F1-score: 0.19000853970964987
+CounterFactual Fairness: 0.0060686174367602375
+Robustness Score: 0.10076308357868169
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.1575s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6721
+Parity: 0.027148424870877652 | Equality: 0.004419191919191934
+F1-score: 0.18880351262349065
+CounterFactual Fairness: 0.006248873400228283
+Robustness Score: 0.0836988523703659
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.8307s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6727
+Parity: 0.02690335086196341 | Equality: 0.015719696969696995
+F1-score: 0.18956043956043958
+CounterFactual Fairness: 0.006549300006008507
+Robustness Score: 0.08460013218770657
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.0906s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6877
+Parity: 0.04963457007167005 | Equality: 0.03226010101010096
+F1-score: 0.19144307469180563
+CounterFactual Fairness: 0.009974163311902928
+Robustness Score: 0.1127801478098901
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.3547s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6854
+Parity: 0.040274261274912265 | Equality: 0.006186868686868685
+F1-score: 0.19271948608137046
+CounterFactual Fairness: 0.007991347713753538
+Robustness Score: 0.11031664964249233
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.0453s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6737
+Parity: 0.02727622172672084 | Equality: 0.01584595959595958
+F1-score: 0.18932038834951456
+CounterFactual Fairness: 0.006849726611788731
+Robustness Score: 0.08496064411464277
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.9555s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6800
+Parity: 0.040268387774197806 | Equality: 0.01477272727272727
+F1-score: 0.19233325947263463
+CounterFactual Fairness: 0.006008532115604148
+Robustness Score: 0.1014841074325542
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.4617s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6732
+Parity: 0.03327960570470856 | Equality: 0.00347222222222221
+F1-score: 0.1899641577060932
+CounterFactual Fairness: 0.006549300006008507
+Robustness Score: 0.08724388631857238
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.2117s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6725
+Parity: 0.026115214730276948 | Equality: 0.010227272727272696
+F1-score: 0.19182561307901907
+CounterFactual Fairness: 0.006609385327164596
+Robustness Score: 0.08466021750886255
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.6276s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6726
+Parity: 0.027248063988967508 | Equality: 0.012752525252525237
+F1-score: 0.1878821567537521
+CounterFactual Fairness: 0.005828276152135992
+Robustness Score: 0.0829177431953374
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.8080s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6859
+Parity: 0.04483272901147478 | Equality: 0.03207070707070714
+F1-score: 0.19257884972170686
+CounterFactual Fairness: 0.00396563119629878
+Robustness Score: 0.1158444991888482
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.5529s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6730
+Parity: 0.030743463161894413 | Equality: 0.012941919191919227
+F1-score: 0.19086908690869084
+CounterFactual Fairness: 0.006308958721384372
+Robustness Score: 0.08117526888181215
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.0956s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6738
+Parity: 0.027153684722263732 | Equality: 0.0030934343434343425
+F1-score: 0.18780356179168917
+CounterFactual Fairness: 0.006789641290632753
+Robustness Score: 0.08490055879348679
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 225.7563s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6741
+Parity: 0.040448169494573166 | Equality: 0.006313131313131326
+F1-score: 0.18727076591154262
+CounterFactual Fairness: 0.0021630715616175467
+Robustness Score: 0.09697770834585107
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 224.7933s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6740
+Parity: 0.041049405573675174 | Equality: 0.009090909090909094
+F1-score: 0.18697251677126164
+CounterFactual Fairness: 0.0018626449558373226
+Robustness Score: 0.09691762302469509
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 224.5098s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6742
+Parity: 0.04186662868352653 | Equality: 0.011868686868686917
+F1-score: 0.18691588785046728
+CounterFactual Fairness: 0.0018626449558373226
+Robustness Score: 0.09709787898816324
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 224.8770s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6741
+Parity: 0.04197152765300241 | Equality: 0.010479797979797978
+F1-score: 0.18670132120424518
+CounterFactual Fairness: 0.001682388992369166
+Robustness Score: 0.09721804963047531
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 187.6211s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6724
+Parity: 0.02837472415586048 | Equality: 0.009722222222222243
+F1-score: 0.18406285072951736
+CounterFactual Fairness: 0.006489214684852529
+Robustness Score: 0.08454004686655048
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.1214s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6875
+Parity: 0.05438086710122858 | Equality: 0.04368686868686872
+F1-score: 0.18928002830355561
+CounterFactual Fairness: 0.007630835786817336
+Robustness Score: 0.12041098359670732
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 187.7228s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6721
+Parity: 0.027385609102712843 | Equality: 0.00018939393939393367
+F1-score: 0.18340365682137835
+CounterFactual Fairness: 0.006188788079072305
+Robustness Score: 0.08417953493961428
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.1595s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6852
+Parity: 0.051507129763619486 | Equality: 0.044507575757575746
+F1-score: 0.19179118592774733
+CounterFactual Fairness: 0.006248873400228283
+Robustness Score: 0.1147028780868834
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 188.1290s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6715
+Parity: 0.026714750124097436 | Equality: 0.0011363636363636576
+F1-score: 0.1826950354609929
+CounterFactual Fairness: 0.006669470648320575
+Robustness Score: 0.0832782551222736
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.1140s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6734
+Parity: 0.0285456868587452 | Equality: 0.002967171717171757
+F1-score: 0.1852152721364744
+CounterFactual Fairness: 0.006308958721384372
+Robustness Score: 0.08568166796851528
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 187.3312s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6716
+Parity: 0.027295718242525135 | Equality: 0.008207070707070718
+F1-score: 0.18488838008013736
+CounterFactual Fairness: 0.006248873400228283
+Robustness Score: 0.08321816980111763
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.2948s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6726
+Parity: 0.028301542090242493 | Equality: 0.004229797979798
+F1-score: 0.18668152688771245
+CounterFactual Fairness: 0.007570750465661247
+Robustness Score: 0.08598209457429551
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.1939s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6706
+Parity: 0.02545766317566825 | Equality: 0.0031565656565656353
+F1-score: 0.18418013856812931
+CounterFactual Fairness: 0.006789641290632753
+Robustness Score: 0.08273748723186924
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.1810s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6849
+Parity: 0.05025979107309242 | Equality: 0.0414141414141414
+F1-score: 0.193006446571596
+CounterFactual Fairness: 0.006128702757916216
+Robustness Score: 0.11229946524064172
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.1876s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6720
+Parity: 0.029755277349158338 | Equality: 0.009659090909090895
+F1-score: 0.18429259994329458
+CounterFactual Fairness: 0.00492699633479543
+Robustness Score: 0.08339842576458567
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.1038s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6715
+Parity: 0.02609061615862815 | Equality: 0.0017676767676767513
+F1-score: 0.18218275565740474
+CounterFactual Fairness: 0.006729555969476664
+Robustness Score: 0.08279757255302533
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 220.5275s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6820
+Parity: 0.03992011548108915 | Equality: 0.0024621212121211933
+F1-score: 0.19550173010380623
+CounterFactual Fairness: 0.008291774319533762
+Robustness Score: 0.10647118908850572
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 222.3592s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6817
+Parity: 0.042757805303865803 | Equality: 0.015340909090909127
+F1-score: 0.1926049717986213
+CounterFactual Fairness: 0.008051433034909516
+Robustness Score: 0.10911494321937154
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 222.2849s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6794
+Parity: 0.04284785395959509 | Equality: 0.019002525252525215
+F1-score: 0.19216294000442768
+CounterFactual Fairness: 0.007630835786817336
+Robustness Score: 0.09944120651324884
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 222.5952s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6809
+Parity: 0.03628284058344233 | Equality: 0.0020202020202019777
+F1-score: 0.19297067383031113
+CounterFactual Fairness: 0.009553566063810637
+Robustness Score: 0.10202487532295856
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.7450s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6859
+Parity: 0.05107531349766234 | Equality: 0.02689393939393936
+F1-score: 0.19082125603864736
+CounterFactual Fairness: 0.0009613651384966504
+Robustness Score: 0.10947545514630774
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 192.6691s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6754
+Parity: 0.06538940292832054 | Equality: 0.039141414141414144
+F1-score: 0.18784988596309352
+CounterFactual Fairness: 0.00024034128462413484
+Robustness Score: 0.08435979090308243
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.6835s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6818
+Parity: 0.05673940199557362 | Equality: 0.04520202020202024
+F1-score: 0.1915367483296214
+CounterFactual Fairness: 0.003124436700114197
+Robustness Score: 0.09355284503995676
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.2448s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6748
+Parity: 0.06589455905543729 | Equality: 0.037563131313131326
+F1-score: 0.1859590472210614
+CounterFactual Fairness: 0.00024034128462413484
+Robustness Score: 0.08375893769152198
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.3439s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6866
+Parity: 0.04795015526379981 | Equality: 0.021338383838383823
+F1-score: 0.19247030400644252
+CounterFactual Fairness: 0.003725289911674534
+Robustness Score: 0.1080934927597188
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 192.3436s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6754
+Parity: 0.06754571406970974 | Equality: 0.043371212121212144
+F1-score: 0.1875
+CounterFactual Fairness: 0.0006008532115604481
+Robustness Score: 0.08508081475695484
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.1632s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6748
+Parity: 0.06665004904285432 | Equality: 0.03484848484848485
+F1-score: 0.1869158878504673
+CounterFactual Fairness: 0.00036051192693620226
+Robustness Score: 0.08429970558192634
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 192.3896s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6857
+Parity: 0.05064333943616356 | Equality: 0.02834595959595959
+F1-score: 0.19116465863453816
+CounterFactual Fairness: 0.0016223036712130767
+Robustness Score: 0.10863426065012316
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.4247s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6855
+Parity: 0.04740276253005307 | Equality: 0.016792929292929304
+F1-score: 0.191361851622236
+CounterFactual Fairness: 0.0023433275250855923
+Robustness Score: 0.10611067716156941
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.5008s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6754
+Parity: 0.06468326787974268 | Equality: 0.04198232323232326
+F1-score: 0.18834266749637005
+CounterFactual Fairness: 0.00030042660578022407
+Robustness Score: 0.0848404734723307
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.5022s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6851
+Parity: 0.04889610446990586 | Equality: 0.02253787878787883
+F1-score: 0.19059254734270004
+CounterFactual Fairness: 0.0015622183500570985
+Robustness Score: 0.10647118908850572
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.5103s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6858
+Parity: 0.05260656143317066 | Equality: 0.024242424242424232
+F1-score: 0.19115605790204246
+CounterFactual Fairness: 0.003124436700114197
+Robustness Score: 0.10857417532896718
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 229.4545s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6830
+Parity: 0.05122709527582589 | Equality: 0.05309343434343433
+F1-score: 0.1918692191869219
+CounterFactual Fairness: 0.002042900919305368
+Robustness Score: 0.10328666706723544
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 228.1186s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6839
+Parity: 0.044431086759635585 | Equality: 0.03895202020202021
+F1-score: 0.19096774193548388
+CounterFactual Fairness: 0.004506399086703139
+Robustness Score: 0.10755272486931444
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 230.3388s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6826
+Parity: 0.05142281434590101 | Equality: 0.051641414141414155
+F1-score: 0.19195849546044097
+CounterFactual Fairness: 0.0012617917442768745
+Robustness Score: 0.10256564321336292
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 230.9173s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6834
+Parity: 0.051726062311145043 | Equality: 0.05309343434343433
+F1-score: 0.19182795698924732
+CounterFactual Fairness: 0.0018025596346812334
+Robustness Score: 0.10316649642492337
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.3833s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6838
+Parity: 0.044571261799073975 | Equality: 0.05183080808080809
+F1-score: 0.19534282018111257
+CounterFactual Fairness: 0.003124436700114197
+Robustness Score: 0.1061707624827255
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.1975s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6777
+Parity: 0.05373167871032372 | Equality: 0.031691919191919216
+F1-score: 0.19089509566747304
+CounterFactual Fairness: 0.0019227302769933008
+Robustness Score: 0.08688337439163607
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.3727s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6747
+Parity: 0.06480410419891836 | Equality: 0.05006313131313134
+F1-score: 0.18584825234441602
+CounterFactual Fairness: 0.003364777984738332
+Robustness Score: 0.08772456888782065
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.3543s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6751
+Parity: 0.06686866599929675 | Equality: 0.050315656565656564
+F1-score: 0.18512396694214878
+CounterFactual Fairness: 0.004145887159766826
+Robustness Score: 0.08838550742053719
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.6153s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6826
+Parity: 0.046010918189113126 | Equality: 0.04595959595959598
+F1-score: 0.1955319619553196
+CounterFactual Fairness: 0.0030042660578021296
+Robustness Score: 0.10178453403833443
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.9622s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6848
+Parity: 0.04688445677447117 | Equality: 0.046338383838383845
+F1-score: 0.19487396737979246
+CounterFactual Fairness: 0.0026437541308658163
+Robustness Score: 0.10599050651925734
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 188.9427s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6767
+Parity: 0.07136292848327347 | Equality: 0.05890151515151515
+F1-score: 0.1899581589958159
+CounterFactual Fairness: 0.006188788079072305
+Robustness Score: 0.08411944961845819
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 192.1002s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6738
+Parity: 0.06436950021172655 | Equality: 0.04577020202020199
+F1-score: 0.18531992296169486
+CounterFactual Fairness: 0.0036051192693624667
+Robustness Score: 0.08634260650123171
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.7634s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6739
+Parity: 0.06375155533805485 | Equality: 0.048484848484848464
+F1-score: 0.18604651162790697
+CounterFactual Fairness: 0.004205972480922915
+Robustness Score: 0.08658294778585596
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.6519s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6855
+Parity: 0.05870525391827372 | Equality: 0.04835858585858588
+F1-score: 0.19431750447049473
+CounterFactual Fairness: 0.00012017064231206742
+Robustness Score: 0.10118368082677398
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.8225s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6776
+Parity: 0.052772579875752484 | Equality: 0.03434343434343434
+F1-score: 0.1915467625899281
+CounterFactual Fairness: 0.002223156882773525
+Robustness Score: 0.08454004686655048
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.9488s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6765
+Parity: 0.05005030872522381 | Equality: 0.031565656565656575
+F1-score: 0.19344632768361583
+CounterFactual Fairness: 0.003064351378958108
+Robustness Score: 0.09006789641290636
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 221.0439s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6765
+Parity: 0.04161831109959088 | Equality: 0.033522727272727315
+F1-score: 0.19330669330669328
+CounterFactual Fairness: 0.003124436700114197
+Robustness Score: 0.08802499549360088
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 223.2716s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6767
+Parity: 0.04094126302917786 | Equality: 0.03358585858585855
+F1-score: 0.19441674975074774
+CounterFactual Fairness: 0.0034849486270503993
+Robustness Score: 0.0883254220993811
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 222.3878s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6764
+Parity: 0.04097653909914034 | Equality: 0.033522727272727315
+F1-score: 0.19427710843373494
+CounterFactual Fairness: 0.003424863305894421
+Robustness Score: 0.08820525145706903
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 219.6096s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6767
+Parity: 0.04190129110416063 | Equality: 0.029356060606060608
+F1-score: 0.19446522064323107
+CounterFactual Fairness: 0.003124436700114197
+Robustness Score: 0.08838550742053719
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 186.4811s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6739
+Parity: 0.04596883937802468 | Equality: 0.04463383838383839
+F1-score: 0.18832298136645967
+CounterFactual Fairness: 0.003364777984738332
+Robustness Score: 0.08279757255302533
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.0705s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6771
+Parity: 0.05071590785245317 | Equality: 0.031565656565656575
+F1-score: 0.1948554518552242
+CounterFactual Fairness: 0.0031845220212701753
+Robustness Score: 0.08946704320134591
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 186.4710s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6764
+Parity: 0.05034040706200271 | Equality: 0.035353535353535304
+F1-score: 0.18956683744760133
+CounterFactual Fairness: 0.0035450339482064885
+Robustness Score: 0.08892627531094155
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.0099s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6748
+Parity: 0.04584274320746298 | Equality: 0.040593434343434376
+F1-score: 0.18963831867057673
+CounterFactual Fairness: 0.003424863305894421
+Robustness Score: 0.08502072943579886
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 187.2993s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6765
+Parity: 0.05047439300964349 | Equality: 0.03832070707070706
+F1-score: 0.19166666666666662
+CounterFactual Fairness: 0.002884095415489951
+Robustness Score: 0.0879649101724449
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.7580s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6763
+Parity: 0.04834097975462162 | Equality: 0.02297979797979799
+F1-score: 0.19362239045652674
+CounterFactual Fairness: 0.00396563119629878
+Robustness Score: 0.08898636063209753
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 187.4633s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6764
+Parity: 0.047968108889864164 | Equality: 0.027020202020202
+F1-score: 0.1924959216965742
+CounterFactual Fairness: 0.003424863305894421
+Robustness Score: 0.08766448356666467
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.9274s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6763
+Parity: 0.050427667996497366 | Equality: 0.03270202020202023
+F1-score: 0.1919518963922294
+CounterFactual Fairness: 0.0027639247731778838
+Robustness Score: 0.08808508081475697
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.2216s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6767
+Parity: 0.0496571698997921 | Equality: 0.029924242424242464
+F1-score: 0.19216589861751152
+CounterFactual Fairness: 0.003424863305894421
+Robustness Score: 0.08862584870516133
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.5386s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6763
+Parity: 0.049106217999940804 | Equality: 0.036805555555555536
+F1-score: 0.19107685120298995
+CounterFactual Fairness: 0.003725289911674534
+Robustness Score: 0.08856576338400524
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.8111s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6764
+Parity: 0.04812592196428378 | Equality: 0.022727272727272707
+F1-score: 0.19226260257913247
+CounterFactual Fairness: 0.0040858018386108474
+Robustness Score: 0.08628252118007573
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.4772s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6744
+Parity: 0.04605610031251933 | Equality: 0.043308080808080796
+F1-score: 0.18890258939580765
+CounterFactual Fairness: 0.003424863305894421
+Robustness Score: 0.08441987622423841
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 221.0903s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6779
+Parity: 0.048181465994920514 | Equality: 0.03244949494949495
+F1-score: 0.18946873530794547
+CounterFactual Fairness: 0.0037853752328306234
+Robustness Score: 0.09661719641891486
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 223.0734s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6778
+Parity: 0.04831545194256129 | Equality: 0.04520202020202024
+F1-score: 0.18971962616822427
+CounterFactual Fairness: 0.003725289911674534
+Robustness Score: 0.09673736706122693
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 222.2995s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6787
+Parity: 0.049937519978668826 | Equality: 0.04816919191919189
+F1-score: 0.19138090824837814
+CounterFactual Fairness: 0.003725289911674534
+Robustness Score: 0.09811932944781587
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 222.6419s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6790
+Parity: 0.04953556213574653 | Equality: 0.038005050505050486
+F1-score: 0.18829636621047666
+CounterFactual Fairness: 0.002523583488553749
+Robustness Score: 0.09637685513429073
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.5184s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6843
+Parity: 0.03762857356056451 | Equality: 0.01073232323232326
+F1-score: 0.19061857596710896
+CounterFactual Fairness: 0.014540647719762045
+Robustness Score: 0.10737246890584629
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.5300s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6895
+Parity: 0.049759579206278604 | Equality: 0.01761363636363633
+F1-score: 0.1935374149659864
+CounterFactual Fairness: 0.008652286246469965
+Robustness Score: 0.1104368202848044
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.4195s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6846
+Parity: 0.0358830392795883 | Equality: 0.010795454545454553
+F1-score: 0.1895436911139849
+CounterFactual Fairness: 0.015141500931322494
+Robustness Score: 0.108454004686655
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 192.1388s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6839
+Parity: 0.03708644067820385 | Equality: 0.002146464646464674
+F1-score: 0.19072847682119207
+CounterFactual Fairness: 0.013699453223577462
+Robustness Score: 0.10713212762122215
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.9342s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6859
+Parity: 0.03852763995798292 | Equality: 0.018497474747474763
+F1-score: 0.19325044404973357
+CounterFactual Fairness: 0.013639367902421484
+Robustness Score: 0.11109775881752093
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 192.1577s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6837
+Parity: 0.03722398579194919 | Equality: 0.0007575757575757902
+F1-score: 0.19076688286913393
+CounterFactual Fairness: 0.013579282581265395
+Robustness Score: 0.10587033587694528
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.6520s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6832
+Parity: 0.03737560977457116 | Equality: 0.006249999999999978
+F1-score: 0.18956985154168252
+CounterFactual Fairness: 0.01381962386588953
+Robustness Score: 0.106951871657754
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 192.2219s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6841
+Parity: 0.03662182047243562 | Equality: 0.012121212121212144
+F1-score: 0.190067214339059
+CounterFactual Fairness: 0.01484107432554227
+Robustness Score: 0.10743255422700237
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 192.6081s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6842
+Parity: 0.03717633153839153 | Equality: 0.01357323232323232
+F1-score: 0.19117096894874672
+CounterFactual Fairness: 0.014720903683230202
+Robustness Score: 0.10701195697891008
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 192.1483s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6867
+Parity: 0.042531140774802745 | Equality: 0.0030934343434343425
+F1-score: 0.1928
+CounterFactual Fairness: 0.009012798173406278
+Robustness Score: 0.11734663221774921
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 192.2641s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6818
+Parity: 0.03996482421787062 | Equality: 0.011553030303030287
+F1-score: 0.1871481265773636
+CounterFactual Fairness: 0.013038514690861036
+Robustness Score: 0.1065312744096617
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 192.4195s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6861
+Parity: 0.04446604723851488 | Equality: 0.017866161616161613
+F1-score: 0.19454958364875094
+CounterFactual Fairness: 0.009193054136874323
+Robustness Score: 0.11241963588295378
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 229.4913s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6689
+Parity: 0.042545535234762594 | Equality: 0.014141414141414121
+F1-score: 0.18392897791941726
+CounterFactual Fairness: 0.006849726611788731
+Robustness Score: 0.0856215826473592
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 227.3328s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6765
+Parity: 0.043573327728435696 | Equality: 0.02323232323232327
+F1-score: 0.18723037100949097
+CounterFactual Fairness: 0.007270323859881023
+Robustness Score: 0.10058282761521364
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 225.6067s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6688
+Parity: 0.04302686423510049 | Equality: 0.012752525252525237
+F1-score: 0.18375680580762252
+CounterFactual Fairness: 0.006789641290632753
+Robustness Score: 0.08598209457429551
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 225.9357s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6690
+Parity: 0.04273506521304013 | Equality: 0.012815656565656586
+F1-score: 0.1851179673321234
+CounterFactual Fairness: 0.007150153217568955
+Robustness Score: 0.08634260650123171
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.8625s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6897
+Parity: 0.056361727133216855 | Equality: 0.022916666666666696
+F1-score: 0.19396702911259206
+CounterFactual Fairness: 0.004205972480922915
+Robustness Score: 0.11866850928318207
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.4868s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6874
+Parity: 0.04811925948586143 | Equality: 0.032007575757575735
+F1-score: 0.19486404833836857
+CounterFactual Fairness: 0.004626569729015206
+Robustness Score: 0.11338100102145043
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.0489s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6817
+Parity: 0.03880458866629666 | Equality: 0.014898989898989912
+F1-score: 0.18974550898203593
+CounterFactual Fairness: 0.013278855975485171
+Robustness Score: 0.11199903863486149
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.8929s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6877
+Parity: 0.049071397783765125 | Equality: 0.027525252525252508
+F1-score: 0.19377162629757788
+CounterFactual Fairness: 0.003905545875142691
+Robustness Score: 0.11650543772156463
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.3354s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6841
+Parity: 0.04419993382405646 | Equality: 0.028598484848484818
+F1-score: 0.19395866454689983
+CounterFactual Fairness: 0.006128702757916216
+Robustness Score: 0.10803340743856271
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.8994s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6813
+Parity: 0.03890159785869349 | Equality: 0.017487373737373746
+F1-score: 0.18834250996772356
+CounterFactual Fairness: 0.01237757615814461
+Robustness Score: 0.10851409000781109
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.1721s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6878
+Parity: 0.04905901960016995 | Equality: 0.03749999999999998
+F1-score: 0.19287608942781356
+CounterFactual Fairness: 0.0043862284443910715
+Robustness Score: 0.11404193955416697
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.9070s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6889
+Parity: 0.04785917736765902 | Equality: 0.01521464646464643
+F1-score: 0.19561551433389543
+CounterFactual Fairness: 0.006008532115604148
+Robustness Score: 0.11524364597728776
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.9160s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6887
+Parity: 0.048863300530094855 | Equality: 0.026325757575757558
+F1-score: 0.1939256744010564
+CounterFactual Fairness: 0.004025716517454758
+Robustness Score: 0.11854833864087
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.9729s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6817
+Parity: 0.03686426455565689 | Equality: 0.014835858585858563
+F1-score: 0.18915368737098892
+CounterFactual Fairness: 0.013158685333173104
+Robustness Score: 0.11013639367902417
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 191.0127s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6834
+Parity: 0.04789631191844451 | Equality: 0.028661616161616166
+F1-score: 0.19220982579761203
+CounterFactual Fairness: 0.004987081655951409
+Robustness Score: 0.10641110376734964
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.4717s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6816
+Parity: 0.03775822889723077 | Equality: 0.013131313131313105
+F1-score: 0.18791946308724833
+CounterFactual Fairness: 0.012257405515832431
+Robustness Score: 0.11007630835786819
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 221.1590s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6799
+Parity: 0.04185889670198903 | Equality: 0.04791666666666666
+F1-score: 0.1920038305003591
+CounterFactual Fairness: 0.0035450339482064885
+Robustness Score: 0.09403352760920503
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 224.4051s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6776
+Parity: 0.03925653263022444 | Equality: 0.03939393939393937
+F1-score: 0.19296969696969696
+CounterFactual Fairness: 0.004806825692483363
+Robustness Score: 0.09523523403232592
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 220.2101s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6781
+Parity: 0.0349414382172947 | Equality: 0.031565656565656575
+F1-score: 0.19279038718291053
+CounterFactual Fairness: 0.004145887159766826
+Robustness Score: 0.09000781109175027
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 220.3258s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6798
+Parity: 0.04182454987243808 | Equality: 0.029356060606060608
+F1-score: 0.1900121802679659
+CounterFactual Fairness: 0.0030042660578021296
+Robustness Score: 0.0933725890764886
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 188.1186s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6885
+Parity: 0.0562006529509379 | Equality: 0.03781565656565655
+F1-score: 0.18743768693918245
+CounterFactual Fairness: 0.01970798533918161
+Robustness Score: 0.12485729736225437
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.7062s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6799
+Parity: 0.045747276904806095 | Equality: 0.030429292929292917
+F1-score: 0.19045562513496003
+CounterFactual Fairness: 0.00642912936369644
+Robustness Score: 0.10508922670191667
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 188.1987s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6882
+Parity: 0.059463829685170555 | Equality: 0.03188131313131315
+F1-score: 0.19278316070831944
+CounterFactual Fairness: 0.0088926275310941
+Robustness Score: 0.12924352580664544
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.5914s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6807
+Parity: 0.04889007317364985 | Equality: 0.026136363636363624
+F1-score: 0.18969250757903852
+CounterFactual Fairness: 0.0038454605539867126
+Robustness Score: 0.10178453403833443
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 187.6553s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6803
+Parity: 0.045801891695031294 | Equality: 0.02765151515151515
+F1-score: 0.18771186440677964
+CounterFactual Fairness: 0.006969897254100799
+Robustness Score: 0.10587033587694528
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.6873s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6881
+Parity: 0.05488183288007442 | Equality: 0.03497474747474749
+F1-score: 0.1874732486802682
+CounterFactual Fairness: 0.0197680706603377
+Robustness Score: 0.12461695607763024
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 187.9317s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6793
+Parity: 0.04256131478892075 | Equality: 0.028977272727272685
+F1-score: 0.19174492247215552
+CounterFactual Fairness: 0.006248873400228283
+Robustness Score: 0.10250555789220694
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.1240s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6860
+Parity: 0.0481808348127542 | Equality: 0.011363636363636354
+F1-score: 0.19361778415202582
+CounterFactual Fairness: 0.009313224779186391
+Robustness Score: 0.12119209277173582
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.9443s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6851
+Parity: 0.0482277176214419 | Equality: 0.014962121212121204
+F1-score: 0.19454510776273126
+CounterFactual Fairness: 0.009673736706122704
+Robustness Score: 0.11578441386769212
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.8990s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6858
+Parity: 0.04992822757455345 | Equality: 0.013699494949494906
+F1-score: 0.1945071482317532
+CounterFactual Fairness: 0.008652286246469965
+Robustness Score: 0.11596466983116027
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 190.0785s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6809
+Parity: 0.04297209164933369 | Equality: 0.02342171717171715
+F1-score: 0.19053763440860216
+CounterFactual Fairness: 0.008051433034909516
+Robustness Score: 0.10478880009613656
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 189.9155s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6871
+Parity: 0.048298111965825286 | Equality: 0.020896464646464608
+F1-score: 0.18992388546574845
+CounterFactual Fairness: 0.00642912936369644
+Robustness Score: 0.12143243405636006
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 216.0650s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6783
+Parity: 0.036036995129658134 | Equality: 0.025568181818181823
+F1-score: 0.19423440453686203
+CounterFactual Fairness: 0.010575016523463265
+Robustness Score: 0.0964970257766028
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 218.4171s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6790
+Parity: 0.03461590601501177 | Equality: 0.026957070707070707
+F1-score: 0.1936245572609209
+CounterFactual Fairness: 0.011536381661960027
+Robustness Score: 0.0976386468785676
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 224.3844s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6784
+Parity: 0.03404731608017922 | Equality: 0.022601010101010066
+F1-score: 0.19284009546539382
+CounterFactual Fairness: 0.011175869735023714
+Robustness Score: 0.09625668449197866
+
+
+
+
+
+Optimization Finished!
+Total time elapsed: 217.1460s
+torch.Size([66569, 1])
+The AUCROC of estimator: 0.6786
+Parity: 0.034581559185460825 | Equality: 0.02398989898989895
+F1-score: 0.19361037713187604
+CounterFactual Fairness: 0.010514931202307287
+Robustness Score: 0.0964369404554467

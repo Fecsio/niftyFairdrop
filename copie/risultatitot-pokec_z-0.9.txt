@@ -1,0 +1,38 @@
+[homo, etero] edges before:      tensor([1242674,   61038], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          1303712 
+
+Number of edges after:   1042770 
+
+[homo, etero] edges after:       tensor([993922,  48848], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 195.5568s
+torch.Size([67796, 1])
+The AUCROC of estimator: 0.6980
+Parity: 0.04090293539424722 | Equality: 0.055319990183513745
+F1-score: 0.2299519720564692
+CounterFactual Fairness: 0.0074336283185840735
+Robustness Score: 0.11539823008849559
+Using backend: pytorch
+Loading pokec_z dataset from ./dataset/pokec/
+[homo, etero] edges before:      tensor([1242674,   61038], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          1303712 
+
+Number of edges after:   1042770 
+
+[homo, etero] edges after:       tensor([993922,  48848], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 199.5304s
+torch.Size([67796, 1])
+The AUCROC of estimator: 0.6978
+Parity: 0.04289414001130104 | Equality: 0.0579377198483898
+F1-score: 0.22994422994422997
+CounterFactual Fairness: 0.007551622418879078
+Robustness Score: 0.11451327433628322
