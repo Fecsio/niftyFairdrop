@@ -74,25 +74,6 @@ def fairdrop_adj(
         row_tmp, col_tmp = filter_fair_adj(row, col, mask)
         edge_index_tmp = stack([row_tmp, col_tmp], dim=0)
         edge_index = edge_index_tmp
-
-
-    #keep = where(r, Y_aux, ~Y_aux)
-
-    #print(bincount(mask.long()))
-
-    #print("keep:")
-    #print(bincount(keep.long()))
-
-    #keep1 = add(keep.float(), mask.float())
-
-    #print("keep1:")
-    #print(bincount(keep1.to(bool).long()))
-
-    #print(keep1.size())
-
-    #row, col = edge_index[:, keep1.to(bool)]
-
-    #print(edge_index.size())
     
     return edge_index
 

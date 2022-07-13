@@ -1,0 +1,416 @@
+(niftyenv) federico@federico-Z490-UD:~/Desktop/Tesi/nifty_ext/Run$ python3.7 run.py 
+Using backend: pytorch
+delta: 0.85
+dr:0.1
+seed:0
+fairattr: 1
+dr_attr_r: 0.01
+[2, 3, 5, 8, 9, 21, 22, 24, 25]
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39933 
+
+[homo, etero] edges after:       tensor([32133,  7800], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 78.1819s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6742
+Parity: 0.0002727768685215626 | Equality: 0.011554621848739566
+CounterFactual Fairness: 0.008000000000000007
+Using backend: pytorch
+delta: 0.75
+dr:0.1
+seed:0
+fairattr: 1
+dr_attr_r: 0.01
+[2, 3, 5, 8, 9, 21, 22, 24, 25]
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39933 
+
+[homo, etero] edges after:       tensor([32330,  7603], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 71.3802s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6709
+Parity: 0.00668303327877795 | Equality: 0.011554621848739566
+CounterFactual Fairness: 0.020000000000000018
+Using backend: pytorch
+delta: 0.85
+dr:0.1
+seed:0
+fairattr: 1
+dr_attr_r: 0.01
+[2, 3, 5, 8, 9, 21, 22, 24, 25]
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39933 
+
+[homo, etero] edges after:       tensor([32133,  7800], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 81.6865s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6586
+Parity: 0.004637206764866342 | Equality: 0.013655462184873901
+CounterFactual Fairness: 0.01200000000000001
+Using backend: pytorch
+delta: 0.75
+dr:0.1
+seed:0
+fairattr: 1
+dr_attr_r: 0.01
+[2, 3, 5, 8, 9, 21, 22, 24, 25]
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39933 
+
+[homo, etero] edges after:       tensor([32330,  7603], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 67.7217s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6583
+Parity: 0.008456082924168107 | Equality: 0.0010504201680672232
+CounterFactual Fairness: 0.0
+Using backend: pytorch
+delta: 0.85
+dr:0.1
+seed:1
+fairattr: 1
+dr_attr_r: 0.01
+[2, 3, 5, 8, 9, 21, 22, 24, 25]
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39997 
+
+[homo, etero] edges after:       tensor([32184,  7813], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 80.2879s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7194
+Parity: 0.004637206764866342 | Equality: 0.005252100840336116
+CounterFactual Fairness: 0.016000000000000014
+Using backend: pytorch
+delta: 0.75
+dr:0.1
+seed:1
+fairattr: 1
+dr_attr_r: 0.01
+[2, 3, 5, 8, 9, 21, 22, 24, 25]
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39997 
+
+[homo, etero] edges after:       tensor([32328,  7669], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 73.4940s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7210
+Parity: 0.023049645390070927 | Equality: 0.012605042016806678
+CounterFactual Fairness: 0.016000000000000014
+Using backend: pytorch
+delta: 0.85
+dr:0.1
+seed:1
+fairattr: 1
+dr_attr_r: 0.01
+[2, 3, 5, 8, 9, 21, 22, 24, 25]
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39997 
+
+[homo, etero] edges after:       tensor([32184,  7813], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 81.0350s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7323
+Parity: 0.0443262411347517 | Equality: 0.047268907563025264
+CounterFactual Fairness: 0.0040000000000000036
+Using backend: pytorch
+delta: 0.75
+dr:0.1
+seed:1
+fairattr: 1
+dr_attr_r: 0.01
+[2, 3, 5, 8, 9, 21, 22, 24, 25]
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39997 
+
+[homo, etero] edges after:       tensor([32328,  7669], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 68.0858s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7252
+Parity: 0.035870158210583813 | Equality: 0.021008403361344463
+CounterFactual Fairness: 0.008000000000000007
+Using backend: pytorch
+delta: 0.85
+dr:0.1
+seed:2
+fairattr: 1
+dr_attr_r: 0.01
+[2, 3, 5, 8, 9, 21, 22, 24, 25]
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39967 
+
+[homo, etero] edges after:       tensor([32160,  7807], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 77.5341s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6718
+Parity: 0.006273867975995606 | Equality: 0.018907563025210017
+CounterFactual Fairness: 0.0
+Using backend: pytorch
+delta: 0.75
+dr:0.1
+seed:2
+fairattr: 1
+dr_attr_r: 0.01
+[2, 3, 5, 8, 9, 21, 22, 24, 25]
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39967 
+
+[homo, etero] edges after:       tensor([32337,  7630], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 69.5198s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6913
+Parity: 0.0001363884342607813 | Equality: 0.018907563025210017
+CounterFactual Fairness: 0.0
+Using backend: pytorch
+delta: 0.85
+dr:0.1
+seed:2
+fairattr: 1
+dr_attr_r: 0.01
+[2, 3, 5, 8, 9, 21, 22, 24, 25]
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39967 
+
+[homo, etero] edges after:       tensor([32160,  7807], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 76.5504s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6325
+Parity: 0.0 | Equality: 0.0
+CounterFactual Fairness: 0.0
+Using backend: pytorch
+delta: 0.75
+dr:0.1
+seed:2
+fairattr: 1
+dr_attr_r: 0.01
+[2, 3, 5, 8, 9, 21, 22, 24, 25]
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+NO FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39967 
+
+[homo, etero] edges after:       tensor([32337,  7630], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 70.8078s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7054
+Parity: 0.019367157665030055 | Equality: 0.006302521008403339
+CounterFactual Fairness: 0.0
+Using backend: pytorch
+delta: 0.9
+dr:0.1
+seed:0
+fairattr: 1
+dr_attr_r: 0.01
+[2, 3, 5, 8, 9, 21, 22, 24, 25]
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39933 
+
+[homo, etero] edges after:       tensor([31910,  8023], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 80.1922s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6606
+Parity: 0.03655210038188761 | Equality: 0.02310924369747902
+CounterFactual Fairness: 0.028000000000000025
+Using backend: pytorch
+delta: 0.9
+dr:0.1
+seed:0
+fairattr: 1
+dr_attr_r: 0.01
+[2, 3, 5, 8, 9, 21, 22, 24, 25]
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39933 
+
+[homo, etero] edges after:       tensor([31910,  8023], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 77.1286s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6684
+Parity: 0.01895799236224771 | Equality: 0.028361344537815136
+CounterFactual Fairness: 0.0
+Using backend: pytorch
+delta: 0.9
+dr:0.1
+seed:1
+fairattr: 1
+dr_attr_r: 0.01
+[2, 3, 5, 8, 9, 21, 22, 24, 25]
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39997 
+
+[homo, etero] edges after:       tensor([31961,  8036], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 78.5660s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7275
+Parity: 0.027277686852154925 | Equality: 0.030462184873949583
+CounterFactual Fairness: 0.0040000000000000036
+Using backend: pytorch
+delta: 0.9
+dr:0.1
+seed:1
+fairattr: 1
+dr_attr_r: 0.01
+[2, 3, 5, 8, 9, 21, 22, 24, 25]
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39997 
+
+[homo, etero] edges after:       tensor([31961,  8036], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 75.4002s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.7286
+Parity: 0.05905619203491541 | Equality: 0.06722689075630262
+CounterFactual Fairness: 0.008000000000000007
+Using backend: pytorch
+delta: 0.9
+dr:0.1
+seed:2
+fairattr: 1
+dr_attr_r: 0.01
+[2, 3, 5, 8, 9, 21, 22, 24, 25]
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39967 
+
+[homo, etero] edges after:       tensor([31937,  8030], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 78.2591s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6827
+Parity: 0.006273867975995606 | Equality: 0.018907563025210017
+CounterFactual Fairness: 0.0
+Using backend: pytorch
+delta: 0.9
+dr:0.1
+seed:2
+fairattr: 1
+dr_attr_r: 0.01
+[2, 3, 5, 8, 9, 21, 22, 24, 25]
+[homo, etero] edges before:      tensor([35996,  8488], device='cuda:0') 
+
+FAIRDROP
+
+Number of edges before:          44484 
+
+Number of edges after:   39967 
+
+[homo, etero] edges after:       tensor([31937,  8030], device='cuda:0') 
+
+Optimization Finished!
+Total time elapsed: 76.5979s
+torch.Size([1000, 1])
+The AUCROC of estimator: 0.6797
+Parity: 0.019094380796508492 | Equality: 0.027310924369747913
+CounterFactual Fairness: 0.0
+(niftyenv) federico@federico-Z490-UD:~/Desktop/Tesi/nifty_ext/Run$ clear

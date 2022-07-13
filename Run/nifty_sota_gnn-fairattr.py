@@ -9,7 +9,6 @@ import numpy as np
 import torch
 import torch.nn.functional as F
 import torch.optim as optim
-
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -20,6 +19,9 @@ from sklearn.metrics import f1_score, roc_auc_score
 from torch_geometric.utils import dropout_adj, convert
 from aif360.sklearn.metrics import consistency_score as cs
 from aif360.sklearn.metrics import generalized_entropy_error as gee
+from fair_attrdrop import fair_drop_feature
+
+
 
 def fair_metric(pred, labels, sens):
     idx_s0 = sens==0
@@ -98,6 +100,8 @@ parser.add_argument('--model', type=str, default='gcn',
 parser.add_argument('--encoder', type=str, default='gcn')
 parser.add_argument('--fairdrop', type=int, default=0)
 parser.add_argument('--delta', type=float, default=0.25)
+parser.add_argument('--fairattr', type=int, default=0)
+
 
 
 
@@ -122,10 +126,17 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 from fairdrop import fairdrop_adj
 
 delta = args.delta
-print(0.5 + delta)
+print("delta: " + str(0.5 + delta))
 
-print(args.drop_edge_rate_1)
-print(args.seed)
+
+print("dr:" + str(args.drop_edge_rate_1))
+print("seed:" + str(args.seed))
+print("fairattr: " + str(args.fairattr))
+print("dr_attr_r: " + str(args.drop_feature_rate_1))
+
+
+acc_auc = []
+fairness = []
 
 #---------------------------------------------------------------
 
@@ -133,77 +144,106 @@ print(args.seed)
 
 # Load data
 # print(args.dataset)
+dataset = args.dataset
 
 # Load credit_scoring dataset
-if args.dataset == 'credit':
-	sens_attr = "Age"  # column number after feature process is 1
-	sens_idx = 1
-	predict_attr = 'NoDefaultNextMonth'
-	label_number = 6000
-	path_credit = "./dataset/credit"
-	adj, features, labels, idx_train, idx_val, idx_test, sens = load_credit(args.dataset, sens_attr,
-	                                                                        predict_attr, path=path_credit,
-	                                                                        label_number=label_number
-	                                                                        )
-	norm_features = feature_norm(features)
-	norm_features[:, sens_idx] = features[:, sens_idx]
-	features = norm_features
+if dataset == 'credit':
+    sens_attr = "Age"  # column number after feature process is 1
+    sens_idx = 1
+    predict_attr = 'NoDefaultNextMonth'
+    label_number = 6000
+    path_credit = "./dataset/credit"
+    adj, features, features_nosens, labels, idx_train, idx_val, idx_test, sens = load_credit(dataset, sens_idx, sens_attr,
+                                                                            predict_attr, path=path_credit,
+                                                                            label_number=label_number
+                                                                            )
+    norm_features = feature_norm(features)
+    norm_features[:, sens_idx] = features[:, sens_idx]
+    norm_features_nosens = feature_norm(features_nosens)
+    features = norm_features # all features
+    features_nosens = norm_features_nosens # all features except sensitive one
+
+
+
 
 # Load german dataset
-elif args.dataset == 'german':
-	sens_attr = "Gender"  # column number after feature process is 0
-	sens_idx = 0
-	predict_attr = "GoodCustomer"
-	label_number = 100
-	path_german = "./dataset/german"
-	adj, features, labels, idx_train, idx_val, idx_test, sens = load_german(args.dataset, sens_attr,
-	                                                                        predict_attr, path=path_german,
-	                                                                        label_number=label_number,
-	                                                                        )
+elif dataset == 'german':
+    sens_attr = "Gender"  # column number after feature process is 0
+    sens_idx = 0
+    predict_attr = "GoodCustomer"
+    label_number = 100
+    path_german = "./dataset/german"
+    adj, features, features_nosens, labels, idx_train, idx_val, idx_test, sens = load_german(dataset, sens_idx, sens_attr,
+                                                                            predict_attr, path=path_german,
+                                                                            label_number=label_number,
+                                                                            )
+
+
+
 # Load bail dataset
-elif args.dataset == 'bail':
-	sens_attr = "WHITE"  # column number after feature process is 0
-	sens_idx = 0
-	predict_attr = "RECID"
-	label_number = 1000
-	path_bail = "./dataset/bail"
-	adj, features, labels, idx_train, idx_val, idx_test, sens = load_bail(args.dataset, sens_attr, 
-																			predict_attr, path=path_bail,
-	                                                                        label_number=label_number,
-	                                                                        )
-	norm_features = feature_norm(features)
-	norm_features[:, sens_idx] = features[:, sens_idx]
-	features = norm_features    
+elif dataset == 'bail':
+    sens_attr = "WHITE"  # column number after feature process is 0
+    sens_idx = 0
+    predict_attr = "RECID"
+    label_number = 1000
+    path_bail = "./dataset/bail"
+    adj, features, features_nosens, labels, idx_train, idx_val, idx_test, sens = load_bail(dataset, sens_idx, sens_attr, 
+                                                                            predict_attr, path=path_bail,
+                                                                            label_number=label_number,
+                                                                            )
+    norm_features = feature_norm(features)
+    norm_features[:, sens_idx] = features[:, sens_idx]
+    norm_features_nosens = feature_norm(features_nosens)
+    features = norm_features # all features
+    features_nosens = norm_features_nosens # all features except sensitive one
 
 #load pokec dataset
 
-elif args.dataset == 'pokec_z' or args.dataset == "pokec_n":
-	sens_idx = 3	    
-	sens_attr = "region"  # column number after feature process is 3
-	predict_attr = "I_am_working_in_field"
-	label_number = 10000
-	# sens_number = args.sens_number
-	path_pokec="./dataset/pokec/"
+elif dataset == 'pokec_z' or dataset == "pokec_n":
+    sens_idx = 3	    
+    sens_attr = "region"  # column number after feature process is 3
+    predict_attr = "I_am_working_in_field"
+    label_number = 10000
+    # sens_number = args.sens_number
+    path_pokec="./dataset/pokec/"
 
-	adj, features, labels, idx_train, idx_val, idx_test, sens = load_pokec(args.dataset, sens_attr, 
-																			predict_attr, path=path_pokec,
-	                                                                        label_number=label_number,)
-	norm_features = feature_norm(features)
-	norm_features[:, sens_idx] = features[:, sens_idx]
-	features = norm_features
+    adj, features, features_nosens, labels, idx_train, idx_val, idx_test, sens = load_pokec(dataset, sens_idx, sens_attr, 
+                                                                            predict_attr, path=path_pokec,
+                                                                            label_number=label_number,)
+    norm_features = feature_norm(features)
+    norm_features[:, sens_idx] = features[:, sens_idx]
+    norm_features_nosens = feature_norm(features_nosens)
+    features = norm_features # all features
+    features_nosens = norm_features_nosens # all features except sensitive one
 
 else:
-	print('Invalid dataset name!!')
-	exit(0)
+    print('Invalid dataset name!!')
+
 
 edge_index = convert.from_scipy_sparse_matrix(adj)[0]
-
 #print(features[:,sens_idx])
 # print(len(idx_train))
 # print(len(idx_test))
 # print(len(idx_val))
 
 #print(torch.bincount(sens.long()))
+
+def correlation_matrix(train, sens):
+    correlations = train.corr('spearman')
+    return correlations[sens]
+
+init_corr = correlation_matrix(pd.DataFrame(features.numpy()), sens_idx).abs()
+
+index = init_corr.index
+related_attrs = index[init_corr.iloc[:] >= 0.09]
+related_weights = init_corr[related_attrs].drop(sens_idx).tolist()
+related_attrs = related_attrs.drop(sens_idx).tolist()
+
+print(related_attrs)
+
+weightSum = 0.3
+beta = 0.5
+
 
 #%%    
 # Model and optimizer
@@ -285,8 +325,13 @@ elif args.model == 'ssf':
 
     ## ---------------------------------------------------------------  
 
-    val_x_1 = drop_feature(features.to(device), args.drop_feature_rate_2, sens_idx, sens_flag=False)
-    val_x_2 = drop_feature(features.to(device), args.drop_feature_rate_2, sens_idx)
+    #val_x_1 = drop_feature(features.to(device), args.drop_feature_rate_2, sens_idx, sens_flag=False)
+    #val_x_2 = drop_feature(features.to(device), args.drop_feature_rate_2, sens_idx)
+    
+    val_x_1 = fair_drop_feature(features.to(device), args.drop_feature_rate_2, sens_idx, related_attrs, related_weights, sens_flag=False)
+    val_x_2 = fair_drop_feature(features.to(device), args.drop_feature_rate_2, sens_idx, related_attrs, related_weights)
+    
+    
     par_1 = list(model.encoder.parameters()) + list(model.fc1.parameters()) + list(model.fc2.parameters()) + list(model.fc3.parameters()) + list(model.fc4.parameters())
     par_2 = list(model.c1.parameters()) + list(model.encoder.parameters())
     optimizer_1 = optim.Adam(par_1, lr=args.lr, weight_decay=args.weight_decay)
@@ -344,8 +389,8 @@ for epoch in range(args.epochs+1):
         auc_roc_val = roc_auc_score(labels.cpu().numpy()[idx_val], output.detach().cpu().numpy()[idx_val])
         f1_val = f1_score(labels[idx_val].cpu().numpy(), preds[idx_val].cpu().numpy())
 
-        if epoch % 100 == 0:
-            print(f"[Train] Epoch {epoch}:train_loss: {loss_train.item():.4f} | train_auc_roc: {auc_roc_train:.4f} | val_loss: {loss_val.item():.4f} | val_auc_roc: {auc_roc_val:.4f}")
+        #if epoch % 100 == 0:
+        #    print(f"[Train] Epoch {epoch}:train_loss: {loss_train.item():.4f} | train_auc_roc: {auc_roc_train:.4f} | val_loss: {loss_val.item():.4f} | val_auc_roc: {auc_roc_val:.4f}")
 
         if loss_val.item() < best_loss:
             best_loss = loss_val.item()
@@ -358,9 +403,13 @@ for epoch in range(args.epochs+1):
         for _ in range(rep):
             model.train()
             optimizer_1.zero_grad()
-            optimizer_2.zero_grad()
+            optimizer_2.zero_grad()            
 
             ## ---------------MIE MODIFICHE---------------------------------------------------------------------------------
+            
+            emb = model(features, edge_index)
+            output = model.predict(emb)
+            p_y = (output.squeeze()>0).type_as(labels).float()[idx_train]
 
             if args.fairdrop:
                 edge_index_1 = fairdrop_adj(edge_index.to(device), Y=Y, Y_aux=Y_aux, p=args.drop_edge_rate_1, p_homo=0.5+delta, device=device)
@@ -370,8 +419,13 @@ for epoch in range(args.epochs+1):
                 edge_index_1 = dropout_adj(edge_index, p=args.drop_edge_rate_1)[0]
                 edge_index_2 = dropout_adj(edge_index, p=args.drop_edge_rate_2)[0]
 
-            x_1 = drop_feature(features, args.drop_feature_rate_2, sens_idx, sens_flag=False) ## Node perturbation
-            x_2 = drop_feature(features, args.drop_feature_rate_2, sens_idx) ## 'Counterfactual' perturbation
+            #x_1 = drop_feature(features, args.drop_feature_rate_2, sens_idx, sens_flag=False) ## Node perturbation
+            #x_2 = drop_feature(features, args.drop_feature_rate_2, sens_idx) ## 'Counterfactual' perturbation
+            
+            x_1 = fair_drop_feature(features, args.drop_feature_rate_2, sens_idx, related_attrs, related_weights, sens_flag=False)
+            x_2 = fair_drop_feature(features, args.drop_feature_rate_2, sens_idx, related_attrs, related_weights)
+
+
             z1 = model(x_1, edge_index_1)
             z2 = model(x_2, edge_index_2)
 
@@ -401,12 +455,83 @@ for epoch in range(args.epochs+1):
         l4 = F.binary_cross_entropy_with_logits(c2[idx_train], labels[idx_train].unsqueeze(1).float().to(device))/2
 
         cl_loss = (1-args.sim_coeff)*(l3+l4)
+        
+        ## ---------------MIE MODIFICHE---------------------------------------------------------------------------------
+        
+        # for related_attr, related_weight in zip(related_attrs, related_weights):
+        #         selected_column = related_attrs
+
+        #         # print(features[idx_train][:,selected_column].shape)
+        #         # print(features[idx_train][:,selected_column].reshape(1,features[idx_train][:,selected_column].shape[0],-1).shape)
+        #         # print((features[idx_train][:,selected_column]).float())
+        #         # #print(features[idx_train][:,selected_column].reshape(1,features[idx_train][:,selected_column].shape[0],-1).float() - features[idx_train][:,selected_column].float().mean(dim=0))
+        #         #print(features[idx_train][:,selected_column].reshape(1,features[idx_train][:,selected_column].shape[0],-1).float() - features[idx_train][:,selected_column].float().mean(dim=0))
+        #         #print((p_y-p_y.mean(dim=0)).unsqueeze(1))
+        #         #print(features[idx_train][:,selected_column].float().mean(dim=0))
+
+        #         cor_loss1 = torch.mul(features[idx_train][:,selected_column].reshape(1,features[idx_train][:,selected_column].shape[0],-1).float() - features[idx_train][:,selected_column].float().mean(dim=0), (p_y-p_y.mean(dim=0)).unsqueeze(1))
+        #         cor_loss2 = torch.mean(cor_loss1)
+        #         cor_loss3 = torch.abs(cor_loss2)
+        #         cor_loss3 = torch.sum(cor_loss2)
+        #         cor_loss = cor_loss3
+                
+        #         #if epoch % 100 == 0:
+        #         #    print('classification loss: {}, feature correlation loss: {}'.format(cl_loss.item(), cor_loss.item()))
+        #         cl_loss = cl_loss + cor_loss*related_weight*weightSum
+        ## --------------------------------------------------------------------------------------------------------------
+
         cl_loss.backward()
         optimizer_2.step()
         loss = (sim_loss/rep + cl_loss)
+        
+        ## ---------------MIE MODIFICHE---------------------------------------------------------------------------------
+
+        for iter in range(1):
+            with torch.no_grad():
+                emb = model(features, edge_index)
+                output = model.predict(emb)
+                p_y = (output.squeeze()>0).type_as(labels).float()[idx_train]
+
+                cor_losses = []
+                for related_attr in related_attrs:
+                    selected_column = related_attrs
+                    cor_loss1 = torch.mul(features[idx_train][:,selected_column].reshape(1,features[idx_train][:,selected_column].shape[0],-1).float() - features[idx_train][:,selected_column].float().mean(dim=0), (p_y-p_y.mean(dim=0)).unsqueeze(1))
+                    cor_loss2 = torch.mean(cor_loss1)
+                    cor_loss3 = torch.abs(cor_loss2)
+                    cor_loss3 = torch.sum(cor_loss2)
+                    cor_loss = cor_loss3
+                    
+                    cor_losses.append(cor_loss.item())
+
+                cor_losses = np.array(cor_losses)
+
+                cor_order = np.argsort(cor_losses)
+
+                #compute -v. represent it as v.
+                beta = beta
+                v = cor_losses[cor_order[0]]+ 2*beta
+                cor_sum = cor_losses[cor_order[0]]
+                l=1
+                for i in range(cor_order.shape[0]-1):
+                    if cor_losses[cor_order[i+1]] < v:
+                        cor_sum = cor_sum + cor_losses[cor_order[i+1]]
+                        v = (cor_sum+2*beta)/(i+2)
+                        l = l+1
+                    else:
+                        break
+                
+                #compute lambda
+                for i in range(cor_order.shape[0]):
+                    if i < l:
+                        related_weights[cor_order[i]] = (v-cor_losses[cor_order[i]])/(2*beta)
+                    else:
+                        related_weights[cor_order[i]] = 0        
+            ## --------------------------------------------------------------------------------------------------------------
 
         # Validation
         model.eval()
+        val_x_1 = fair_drop_feature(features.to(device), args.drop_feature_rate_2, sens_idx, related_attrs, related_weights, sens_flag=False)
+        val_x_2 = fair_drop_feature(features.to(device), args.drop_feature_rate_2, sens_idx, related_attrs, related_weights)
         val_s_loss, val_c_loss = ssf_validation(model, val_x_1, val_edge_index_1, val_x_2, val_edge_index_2, labels)
         emb = model(val_x_1, val_edge_index_1)
         output = model.predict(emb)
@@ -414,10 +539,10 @@ for epoch in range(args.epochs+1):
         auc_roc_val = roc_auc_score(labels.cpu().numpy()[idx_val], output.detach().cpu().numpy()[idx_val])
 
         #if epoch % 100 == 0:
-            #print(f"[Train] Epoch {epoch}:train_s_loss: {(sim_loss/rep):.4f} | train_c_loss: {cl_loss:.4f} | val_s_loss: {val_s_loss:.4f} | val_c_loss: {val_c_loss:.4f} | val_auc_roc: {auc_roc_val:.4f}")
+        #    print(f"[Train] Epoch {epoch}:train_s_loss: {(sim_loss/rep):.4f} | train_c_loss: {cl_loss:.4f} | val_s_loss: {val_s_loss:.4f} | val_c_loss: {val_c_loss:.4f} | val_auc_roc: {auc_roc_val:.4f}")
 
         if (val_c_loss + val_s_loss) < best_loss:
-            # print(f'{epoch} | {val_s_loss:.4f} | {val_c_loss:.4f}')
+            #print(f'{epoch} | {val_s_loss:.4f} | {val_c_loss:.4f}')
             best_loss = val_c_loss + val_s_loss
             torch.save(model.state_dict(), f'weights_ssf_{args.encoder}.pt')
 
@@ -460,30 +585,26 @@ else:
 # Report
 output_preds = (output.squeeze()>0).type_as(labels)
 counter_output_preds = (counter_output.squeeze()>0).type_as(labels)
-noisy_output_preds = (noisy_output.squeeze()>0).type_as(labels)
 auc_roc_test = roc_auc_score(labels.cpu().numpy()[idx_test.cpu()], output.detach().cpu().numpy()[idx_test.cpu()])
 counterfactual_fairness = 1 - (output_preds.eq(counter_output_preds)[idx_test].sum().item()/idx_test.shape[0])
-robustness_score = 1 - (output_preds.eq(noisy_output_preds)[idx_test].sum().item()/idx_test.shape[0])
 
 parity, equality = fair_metric(output_preds[idx_test].cpu().numpy(), labels[idx_test].cpu().numpy(), sens[idx_test].numpy())
-f1_s = f1_score(labels[idx_test].cpu().numpy(), output_preds[idx_test].cpu().numpy())
+
 
 # print report
 print("The AUCROC of estimator: {:.4f}".format(auc_roc_test))
 print(f'Parity: {parity} | Equality: {equality}')
-print(f'F1-score: {f1_s}')
+#print(f'F1-score: {f1_s}')
 print(f'CounterFactual Fairness: {counterfactual_fairness}')
-print(f'Robustness Score: {robustness_score}')
+#print(f'Robustness Score: {robustness_score}')
 
 # ------------ MIE MODIFICHE---------------------
 
 with open("risultati"+str(args.fairdrop)+".txt", "a") as external_file:
-    external_file.write('{:.4f}\t'.format(auc_roc_test))
-    external_file.write(f'{parity}\t')
-    external_file.write(f'{equality}\t')
-    external_file.write(f'{f1_s}\t')
-    external_file.write(f'{counterfactual_fairness}\t')
-    external_file.write(f'{robustness_score}\n')
+    external_file.write(f'{auc_roc_test*100},')
+    external_file.write(f'{parity*100},')
+    external_file.write(f'{equality*100},')
+    external_file.write(f'{counterfactual_fairness*100}\n')
     external_file.close()
 
 # ----------------------------------------------------

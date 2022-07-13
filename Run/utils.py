@@ -1,4 +1,6 @@
 import os
+import profile
+import sys
 import dgl
 import torch
 import random
@@ -35,9 +37,9 @@ def build_relationship(x, thresh=0.25):
     
     return idx_map
 
-def load_credit(dataset, sens_attr="Age", predict_attr="NoDefaultNextMonth", path="./dataset/credit/", label_number=1000):
+def load_credit(dataset, sens_idx, sens_attr="Age", predict_attr="NoDefaultNextMonth", path="./dataset/credit/", label_number=1000):
     # print('Loading {} dataset from {}'.format(dataset, path))
-    idx_features_labels = pd.read_csv(os.path.join(path,"{}.csv".format(dataset)))
+    idx_features_labels = pd.read_csv(os.path.join("..", path,"{}.csv".format(dataset)))
     header = list(idx_features_labels.columns)
     header.remove(predict_attr)
     header.remove('Single')
@@ -58,8 +60,8 @@ def load_credit(dataset, sens_attr="Age", predict_attr="NoDefaultNextMonth", pat
 #    idx_features_labels['TotalMonthsOverdue'] = (idx_features_labels['TotalMonthsOverdue']-idx_features_labels['TotalMonthsOverdue'].mean())/idx_features_labels['TotalMonthsOverdue'].std()
 
     # build relationship
-    if os.path.exists(f'{path}/{dataset}_edges.txt'):
-        edges_unordered = np.genfromtxt(f'{path}/{dataset}_edges.txt').astype('int')
+    if os.path.exists(f'{"../"+path}/{dataset}_edges.txt'):
+        edges_unordered = np.genfromtxt(f'{"../" + path}/{dataset}_edges.txt').astype('int')
     else:
         edges_unordered = build_relationship(idx_features_labels[header], thresh=0.7)
         np.savetxt(f'{path}/{dataset}_edges.txt', edges_unordered)
@@ -77,6 +79,7 @@ def load_credit(dataset, sens_attr="Age", predict_attr="NoDefaultNextMonth", pat
     # build symmetric adjacency matrix
     adj = adj + adj.T.multiply(adj.T > adj) - adj.multiply(adj.T > adj)
     adj = adj + sp.eye(adj.shape[0])
+
 
     features = torch.FloatTensor(np.array(features.todense()))
     labels = torch.LongTensor(labels)
@@ -97,13 +100,16 @@ def load_credit(dataset, sens_attr="Age", predict_attr="NoDefaultNextMonth", pat
     idx_train = torch.LongTensor(idx_train)
     idx_val = torch.LongTensor(idx_val)
     idx_test = torch.LongTensor(idx_test)
+
+    features_nosens = torch.cat((features[:,:sens_idx],features[:,sens_idx+1:]),1)
+
     
-    return adj, features, labels, idx_train, idx_val, idx_test, sens
+    return adj, features, features_nosens, labels, idx_train, idx_val, idx_test, sens
 
 
-def load_bail(dataset, sens_attr="WHITE", predict_attr="RECID", path="../dataset/bail/", label_number=1000):
+def load_bail(dataset, sens_idx, sens_attr="WHITE", predict_attr="RECID", path="../dataset/bail/", label_number=1000):
     # print('Loading {} dataset from {}'.format(dataset, path))
-    idx_features_labels = pd.read_csv(os.path.join(path,"{}.csv".format(dataset)))
+    idx_features_labels = pd.read_csv(os.path.join("..", path,"{}.csv".format(dataset)))
     header = list(idx_features_labels.columns)
     header.remove(predict_attr)
     
@@ -126,8 +132,8 @@ def load_bail(dataset, sens_attr="WHITE", predict_attr="RECID", path="../dataset
     # idx_features_labels['TIME'] = 2*(idx_features_labels['TIME']-idx_features_labels['TIME'].min()).div(idx_features_labels['TIME'].max() - idx_features_labels['TIME'].min()) - 1
 
     # build relationship
-    if os.path.exists(f'{path}/{dataset}_edges.txt'):
-        edges_unordered = np.genfromtxt(f'{path}/{dataset}_edges.txt').astype('int')
+    if os.path.exists(f'{"../" + path}/{dataset}_edges.txt'):
+        edges_unordered = np.genfromtxt(f'{"../"+ path}/{dataset}_edges.txt').astype('int')
     else:
         edges_unordered = build_relationship(idx_features_labels[header], thresh=0.6)
         np.savetxt(f'{path}/{dataset}_edges.txt', edges_unordered)
@@ -167,13 +173,18 @@ def load_bail(dataset, sens_attr="WHITE", predict_attr="RECID", path="../dataset
     idx_train = torch.LongTensor(idx_train)
     idx_val = torch.LongTensor(idx_val)
     idx_test = torch.LongTensor(idx_test)
+
+    features_nosens = torch.cat((features[:,:sens_idx],features[:,sens_idx+1:]),1)
+
     
-    return adj, features, labels, idx_train, idx_val, idx_test, sens
+    return adj, features, features_nosens, labels, idx_train, idx_val, idx_test, sens
 
 
-def load_german(dataset, sens_attr="Gender", predict_attr="GoodCustomer", path="../dataset/german/", label_number=1000):
+def load_german(dataset, sens_idx, sens_attr="Gender", predict_attr="GoodCustomer", path="./dataset/german/", label_number=1000):
     # print('Loading {} dataset from {}'.format(dataset, path))
-    idx_features_labels = pd.read_csv(os.path.join(path,"{}.csv".format(dataset)))
+    idx_features_labels = pd.read_csv(os.path.join("..", path,"{}.csv".format(dataset)))
+
+    #idx_features_labels = pd.read_csv(os.path.join(path,"{}.csv".format(dataset)))
     header = list(idx_features_labels.columns)
     header.remove(predict_attr)
     header.remove('OtherLoansAtStore')
@@ -197,8 +208,9 @@ def load_german(dataset, sens_attr="Gender", predict_attr="GoodCustomer", path="
 #    idx_features_labels['LoanDuration'] = 2*(idx_features_labels['LoanDuration']-idx_features_labels['LoanDuration'].min()).div(idx_features_labels['LoanDuration'].max() - idx_features_labels['LoanDuration'].min()) - 1
 #
     # build relationship
-    if os.path.exists(f'{path}/{dataset}_edges.txt'):
-        edges_unordered = np.genfromtxt(f'{path}/{dataset}_edges.txt').astype('int')
+    if os.path.exists(f'{"../" + path}/{dataset}_edges.txt'):
+        edges_unordered = np.genfromtxt(f'{"../" + path}/{dataset}_edges.txt').astype('int')
+        #edges_unordered = np.genfromtxt(f'{path}/{dataset}_edges.txt').astype('int')
     else:
         edges_unordered = build_relationship(idx_features_labels[header], thresh=0.8)
         np.savetxt(f'{path}/{dataset}_edges.txt', edges_unordered)
@@ -238,11 +250,14 @@ def load_german(dataset, sens_attr="Gender", predict_attr="GoodCustomer", path="
     idx_train = torch.LongTensor(idx_train)
     idx_val = torch.LongTensor(idx_val)
     idx_test = torch.LongTensor(idx_test)
+
+    features_nosens = torch.cat((features[:,:sens_idx],features[:,sens_idx+1:]),1)
+
    
-    return adj, features, labels, idx_train, idx_val, idx_test, sens
+    return adj, features, features_nosens, labels, idx_train, idx_val, idx_test, sens
 
 
-def load_pokec(dataset,sens_attr,predict_attr, path="../dataset/pokec/", label_number=1000,sens_number=500,seed=19,test_idx=False):
+def load_pokec(dataset, sens_idx, sens_attr,predict_attr, path="../dataset/pokec/", label_number=1000,sens_number=500,seed=19,test_idx=False):
     """Load data"""
     print('Loading {} dataset from {}'.format(dataset,path))
     dataset_name = dataset
@@ -250,7 +265,7 @@ def load_pokec(dataset,sens_attr,predict_attr, path="../dataset/pokec/", label_n
         dataset = "region_job"
     elif dataset == "pokec_n":
         dataset = "region_job_2"
-    idx_features_labels = pd.read_csv(os.path.join(path,"{}.csv".format(dataset)))
+    idx_features_labels = pd.read_csv(os.path.join("../" + path,"{}.csv".format(dataset)))
     header = list(idx_features_labels.columns)
     header.remove("user_id")
 
@@ -269,7 +284,7 @@ def load_pokec(dataset,sens_attr,predict_attr, path="../dataset/pokec/", label_n
     # build graph
     idx = np.array(idx_features_labels["user_id"], dtype=int)
     idx_map = {j: i for i, j in enumerate(idx)}
-    edges_unordered = np.genfromtxt(os.path.join(path,"{}_relationship.txt".format(dataset)), dtype=int)
+    edges_unordered = np.genfromtxt(os.path.join("../" + path,"{}_relationship.txt".format(dataset)), dtype=int)
 
     edges = np.array(list(map(idx_map.get, edges_unordered.flatten())),
                      dtype=int).reshape(edges_unordered.shape)
@@ -308,7 +323,10 @@ def load_pokec(dataset,sens_attr,predict_attr, path="../dataset/pokec/", label_n
 
     # print(f"labels after processing: {labels.shape}")
     # print(f"num_class after processing: {labels.unique().shape[0]-1}")
-    return adj, features, labels, idx_train, idx_val, idx_test, sens
+
+    features_nosens = torch.cat((features[:,:sens_idx],features[:,sens_idx+1:]),1)
+
+    return adj, features, features_nosens, labels, idx_train, idx_val, idx_test, sens
 
 
 def normalize(mx):

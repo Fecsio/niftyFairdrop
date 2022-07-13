@@ -1,4 +1,5 @@
 from cProfile import label
+from numpy import float64
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.patches as pat
@@ -142,15 +143,90 @@ def makecloud(title, df, parity = True):
     plt.close()
 
 
+def makecloud2(title, df0, df1, parity = True):
+    
+    if parity: 
+        s = 4
+        m = "DP"
+    else:
+        s = 5
+        m = "EO"
+
+    #nifty
+    x = [float64(xx) for xx in df0[3::7]]
+    y = [float64(yy) for yy in df0[s::7]]
+
+    #fairattr
+    x1 = [float64(xx) for xx in df1[3::7]]
+    y1 = [float64(yy) for yy in df1[s::7]]
+    c1 = "#CC0000"
+    c2 = "#FF0000"
+    c3 = "#FF6666"
+    c2 = c1
+    c3 = c1
+    # x = x.append(pd.Series(x[0]))
+    # y = y.append(pd.Series(y[0]))
+
+    # x_1 = x_1.append(pd.Series(x_1[0]))
+    # y_1 = y_1.append(pd.Series(y_1[0]))
+
+    # x_2 = x_2.append(pd.Series(x_2[0]))
+    # y_2 = y_2.append(pd.Series(y_2[0]))
+
+    # x_3 = x_3.append(pd.Series(x_3[0]))
+    # y_3 = y_3.append(pd.Series(y_3[0]))
+
+    plt.scatter(x, y, c='blue', label="NIFTY")
+    plt.scatter(x1, y1, c='red', label="NIFTY + FAIRRF" )
+    # plt.scatter(x_2, y_2, c=c2, label="NIFTY + FAIRDROP 0.49")
+    # plt.scatter(x_3, y_3, c=c3, label="NIFTY + FAIRDROP 0.499")
+
+    # plt.fill(x,y, color='blue')
+
+    # plt.fill(x_1, y_1, color=c1, alpha=0.5)
+
+    # plt.fill(x_2, y_2, color=c2, alpha=0.4)
+
+    # plt.fill(x_3, y_3, color=c3, alpha=0.3)
+
+
+    
+    handles, labels = plt.gca().get_legend_handles_labels()
+    newLabels, newHandles = [], []
+    for handle, label in zip(handles, labels):
+        if label not in newLabels:
+            newLabels.append(label)
+            newHandles.append(handle)
+
+        #t = title.replace('-', '').replace('longrun', '') + " - " + str(dr)
+        #t = t.strip()
+
+        t = title.replace('pulito', '').replace('longrun', '-' + m)
+        t = t.strip()
+        #t = "German"
+
+    plt.gca().yaxis.set_major_formatter(PercentFormatter(xmax=1))
+    plt.gca().xaxis.set_major_formatter(PercentFormatter(xmax=1))
+    plt.title(t)
+    plt.xlabel("AUC")
+    plt.ylabel(s)
+    plt.legend()
+    plt.rcParams["figure.figsize"] = (10,6)
+
+    plt.savefig("../grafici_paper_final/" + t + "-" + m +  "-fairrf.png")
+    plt.close()
 
 
 
 
 #for i in ["-bail-longrun", "-credit-longrun", "-german-longrun", "-pokec_n-longrun"]:
 #for i in ["-pokec_n-longrun-0.47-0.49-0.499"]:
-for i in ["-bail-longrun-0.25-0.3-0.35 copy"]:
-    f = "risultatitot" + i + ".txt"
+for i in ["germanpulito","bailpulito","creditpulito"]:
+    f = i + ".txt"
+    f1 = i + "-nifty.txt"
     with open(f, 'r') as file:
-        df0 = pd.read_csv(f, sep='\t', lineterminator='\n', names=["metrica", "AUROC", "Parity", "Equality", "F1", "Counterfactual", "Robustness"], index_col=False)
-        makecloud(i, df0,  True)
-        makecloud(i, df0,  False)
+        df1 = list(filter(None, file.read().splitlines()))
+        with open(f1, 'r') as file1:
+            df0 = list(filter(None, file1.read().splitlines()))
+            makecloud2(i, df0, df1,  False)
+            

@@ -1,0 +1,54 @@
+dr: 0.1	AUROC	Parity	Equality	F1	Counterfactual	Robustness
+mean	82.79899101445993	1.6402107083028596	1.117211927095247	1.217301217301218		
+stdev	0.3873242723667238	0.24849853776162942	0.6109729797254742	0.1853075498099968		
+	AUROC	Parity	Equality	F1	Counterfactual	Robustness
+mean						
+stdev						
+	AUROC	Parity	Equality	F1	Counterfactual	Robustness
+mean						
+stdev						
+	AUROC	Parity	Equality	F1	Counterfactual	Robustness
+mean						
+stdev						
+	AUROC	Parity	Equality	F1	Counterfactual	Robustness
+mean						
+stdev						
+	AUROC	Parity	Equality	F1	Counterfactual	Robustness
+mean						
+stdev						
+dr: 0.25	AUROC	Parity	Equality	F1	Counterfactual	Robustness
+mean	81.2156384212959	2.51538288510651	0.36350695238821507	1.1372465917920442		
+stdev	3.2269698346159927	0.8859492647988015	0.2528050864443165	0.3755042412941181		
+	AUROC	Parity	Equality	F1	Counterfactual	Robustness
+mean						
+stdev						
+	AUROC	Parity	Equality	F1	Counterfactual	Robustness
+mean						
+stdev						
+	AUROC	Parity	Equality	F1	Counterfactual	Robustness
+mean						
+stdev						
+	AUROC	Parity	Equality	F1	Counterfactual	Robustness
+mean						
+stdev						
+	AUROC	Parity	Equality	F1	Counterfactual	Robustness
+mean						
+stdev						
+dr: 0.35	AUROC	Parity	Equality	F1	Counterfactual	Robustness
+mean	83.96138769588481	1.982621285797677	0.5320419939500227	1.2432012432012418		
+stdev	0.3607083172516399	0.41920508475436286	0.19237062632071933	0.6858648636823256		
+	AUROC	Parity	Equality	F1	Counterfactual	Robustness
+mean						
+stdev						
+	AUROC	Parity	Equality	F1	Counterfactual	Robustness
+mean						
+stdev						
+	AUROC	Parity	Equality	F1	Counterfactual	Robustness
+mean						
+stdev						
+	AUROC	Parity	Equality	F1	Counterfactual	Robustness
+mean						
+stdev						
+	AUROC	Parity	Equality	F1	Counterfactual	Robustness
+mean						
+stdev						
