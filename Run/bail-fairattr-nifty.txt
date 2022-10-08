@@ -1,0 +1,36 @@
+dr = 0.1d_attr_r: 0.01delta: 0.25	AUROC	Parity	Equality	Counterfactual
+mean				
+stdev				
+	AUROC	Parity	Equality	Counterfactual
+mean	82.9461055091789	1.8866479944098264	1.4131015023259346	0.8229144592780976
+stdev	2.0129363780992544	0.40736726929812744	0.2556256609402477	0.4877623525230949
+delta: 0.4	AUROC	Parity	Equality	Counterfactual
+mean				
+stdev				
+	AUROC	Parity	Equality	Counterfactual
+mean				
+stdev				
+d_attr_r: 0.1delta: 0.25	AUROC	Parity	Equality	Counterfactual
+mean				
+stdev				
+	AUROC	Parity	Equality	Counterfactual
+mean	82.51327907928317	1.9442709097165711	0.7219298914563151	1.1549057003602463
+stdev	2.008772211446297	0.7641743306021083	0.2960198134900177	0.3243320166351758
+delta: 0.4	AUROC	Parity	Equality	Counterfactual
+mean				
+stdev				
+	AUROC	Parity	Equality	Counterfactual
+mean				
+stdev				
+d_attr_r: 0.2delta: 0.25	AUROC	Parity	Equality	Counterfactual
+mean				
+stdev				
+	AUROC	Parity	Equality	Counterfactual
+mean	81.95604179612845	1.696717330020638	1.1464450036859106	1.313837677474041
+stdev	0.18519147293003535	0.15535635769963865	0.34388098483754387	0.6707858356153602
+delta: 0.4	AUROC	Parity	Equality	Counterfactual
+mean				
+stdev				
+	AUROC	Parity	Equality	Counterfactual
+mean				
+stdev				

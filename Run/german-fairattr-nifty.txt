@@ -1,0 +1,12 @@
+dr = 0.1d_attr_r: 0.01delta: 0.35	AUROC	Parity	Equality	Counterfactual
+mean				
+stdev				
+	AUROC	Parity	Equality	Counterfactual
+mean	68.82285714285715	2.439079832696852	1.8732492997198866	0.6000000000000005
+stdev	2.742349159309336	1.5501435416558265	0.6107410203960942	0.6000000000000006
+delta: 0.4	AUROC	Parity	Equality	Counterfactual
+mean				
+stdev				
+	AUROC	Parity	Equality	Counterfactual
+mean				
+stdev				

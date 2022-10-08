@@ -325,11 +325,11 @@ elif args.model == 'ssf':
 
     ## ---------------------------------------------------------------  
 
-    #val_x_1 = drop_feature(features.to(device), args.drop_feature_rate_2, sens_idx, sens_flag=False)
-    #val_x_2 = drop_feature(features.to(device), args.drop_feature_rate_2, sens_idx)
+    val_x_1 = drop_feature(features.to(device), args.drop_feature_rate_2, sens_idx, sens_flag=False)
+    val_x_2 = drop_feature(features.to(device), args.drop_feature_rate_2, sens_idx)
     
-    val_x_1 = fair_drop_feature(features.to(device), args.drop_feature_rate_2, sens_idx, related_attrs, related_weights, sens_flag=False)
-    val_x_2 = fair_drop_feature(features.to(device), args.drop_feature_rate_2, sens_idx, related_attrs, related_weights)
+    #val_x_1 = fair_drop_feature(features.to(device), args.drop_feature_rate_2, sens_idx, related_attrs, related_weights, sens_flag=False)
+    #val_x_2 = fair_drop_feature(features.to(device), args.drop_feature_rate_2, sens_idx, related_attrs, related_weights)
     
     
     par_1 = list(model.encoder.parameters()) + list(model.fc1.parameters()) + list(model.fc2.parameters()) + list(model.fc3.parameters()) + list(model.fc4.parameters())
@@ -419,11 +419,11 @@ for epoch in range(args.epochs+1):
                 edge_index_1 = dropout_adj(edge_index, p=args.drop_edge_rate_1)[0]
                 edge_index_2 = dropout_adj(edge_index, p=args.drop_edge_rate_2)[0]
 
-            #x_1 = drop_feature(features, args.drop_feature_rate_2, sens_idx, sens_flag=False) ## Node perturbation
-            #x_2 = drop_feature(features, args.drop_feature_rate_2, sens_idx) ## 'Counterfactual' perturbation
+            x_1 = drop_feature(features, args.drop_feature_rate_2, sens_idx, sens_flag=False) ## Node perturbation
+            x_2 = drop_feature(features, args.drop_feature_rate_2, sens_idx) ## 'Counterfactual' perturbation
             
-            x_1 = fair_drop_feature(features, args.drop_feature_rate_2, sens_idx, related_attrs, related_weights, sens_flag=False)
-            x_2 = fair_drop_feature(features, args.drop_feature_rate_2, sens_idx, related_attrs, related_weights)
+            #x_1 = fair_drop_feature(features, args.drop_feature_rate_2, sens_idx, related_attrs, related_weights, sens_flag=False)
+            #x_2 = fair_drop_feature(features, args.drop_feature_rate_2, sens_idx, related_attrs, related_weights)
 
 
             z1 = model(x_1, edge_index_1)
