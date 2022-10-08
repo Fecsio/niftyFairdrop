@@ -22,3 +22,8 @@ where:
 
 Values for hyperparameters can be found both in the paper and in the [thesis](https://thesis.unipd.it/handle/20.500.12608/32821) 
 
+
+
+**Be sure to install the correct versions for the packages used as indicated in requirements.txt**
+
+For any questions feel free to mail me: [Federico Caldart](mailto:federicocaldart95@gmail.com?subject=[GitHub]NiftyFairdrop)
